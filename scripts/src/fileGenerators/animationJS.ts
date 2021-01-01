@@ -8,10 +8,6 @@ import generatedJavascriptFileMessage from "./lib/generatedJavascriptFileMessage
 export const fileName = "animation.js";
 export const fileType = "js";
 
-/**
- * @TODO provide actual link to source code
- */
-
 const grabCode = (fileName: string) =>
   readFileSync(
     resolve(compiledClientSideDirectory, `${fileName}.js`)

@@ -29,9 +29,12 @@ export default () => (
       measured in <em>billions</em> of lines. No kidding. Let me show you, but
       first, let me introduce you to our goal:
     </p>
-    <CodeBox wallId="fifth-guy" style={{
-      marginTop: 50
-    }}>
+    <CodeBox
+      wallId="fifth-guy"
+      style={{
+        marginTop: 50,
+      }}
+    >
       <span>
         <span
           className="token operator"
@@ -86,8 +89,9 @@ export default () => (
     </p>
     <div>
       [1] Two lines in 5 minutes is our goal. We don't have any actual
-      statistics on this yet. Refer to the {/* TODO */}
-      <a href="">wiki</a> to check up on this goal's progress.
+      statistics on this yet. Refer to the
+      <a href="https://github.com/mmulet/code-relay/wiki/Goal!">wiki</a> to
+      check up on this goal's progress.
     </div>
     <div>
       <p>
@@ -102,9 +106,8 @@ export default () => (
         </a>
       </p>
       <p>
-        Have better data? Please make a pull request on the wiki{" "}
-        <a href="">here</a>
-        {/** @TODO */}
+        Have better data? Please make a pull request
+        <a href="https://github.com/mmulet/code-relay">here</a>
       </p>
     </div>
   </div>

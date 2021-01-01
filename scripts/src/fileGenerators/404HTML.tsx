@@ -23,10 +23,9 @@ const output: FileGenerator = {
   component: () => (
     <Page>
       <h1>Page not found</h1>
-      {/** @TODO */}
       <p>
         If one of our links are dead, please submit an issue:{" "}
-        <a href="">here</a>
+        <a href="https://github.com/mmulet/code-relay/issues">here</a>
       </p>
       <HorizontalDivider />
       <p>

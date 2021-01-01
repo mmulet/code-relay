@@ -74,7 +74,7 @@ Learn more about code-relay here:
 https://coderelay.io/#${howDoesItWorkId}
 
 Check out the status of code-relay on the Github Page:
-${/*TODO*/ ""}
+https://github.com/mmulet/code-relay
 
 ----------
 Your name, email address, or any other personal information 

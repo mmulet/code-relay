@@ -61,12 +61,14 @@ const output: FileGenerator = {
         <ol>
           <li>
             Create a task like: fix this bug, or write documentation for this
-            part. Checkout <a href="">the wiki</a> for some real examples or
-            send email us at{" "}
+            part. Checkout{" "}
+            <a href="https://github.com/mmulet/code-relay/wiki/Task-examples">
+              the wiki
+            </a>{" "}
+            for some real examples or send email us at{" "}
             <a href="mailto:maintainer@coderelay.io">maintainer@coderelay.io</a>{" "}
             and we'll help you get started.
           </li>
-          {/** @TODO */}
           <li>
             Email your task description to{" "}
             <a href="mailto:newTask@coderelay.io">newTask@coderelay.io</a>. You
@@ -141,7 +143,6 @@ const output: FileGenerator = {
           Questions concerns:
           <a href="mailto:maintainerQA@coderelay.io">mail me</a>
         </div>
-        {/**@TODO */}
       </Page>
     );
   },

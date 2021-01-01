@@ -1,6 +1,7 @@
 import React from "react";
 import CodeExample from "./CodeExample";
 import CodeExampleWithOutput from "./CodeExampleWithOutput";
+import { contributeMailHref } from "./contributeMailHref";
 import { ExampleStep } from "./ExampleStep";
 import DualCodeExampleWithOutput from "./MultiCodeExampleWithOutput";
 import {
@@ -28,7 +29,7 @@ export default () => (
     </ExampleStep>
     <ExampleStep step="2">
       <p>
-        Bob emails {/*@TODO put email here */} and code-relay assigns him this
+        Bob emails {contributeMailHref} and code-relay assigns him this
         task. He takes a quick look at it and divides it into two smaller tasks.
         1. Making a circle. 2. Making the circle spin. Then sends it on its way.
       </p>

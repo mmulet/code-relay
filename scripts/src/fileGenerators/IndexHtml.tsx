@@ -101,9 +101,6 @@ const output: FileGenerator = {
                 <h2>Start Now!</h2>
                 <StartInstructions divide />
               </CodeBox>
-              For a tiny amount of your time, you will get: An easy way to light
-              up your GitHub contribution graph,
-              {/** @TODO */}
               <h3>Want to learn more about Code Relay?</h3>
               <ul>
                 <li>

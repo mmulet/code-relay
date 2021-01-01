@@ -1,9 +1,7 @@
 import { readFileSync } from "fs";
 import { resolve } from "path";
 import { compiledClientSideDirectory } from "./directories";
-/**
- * @TODO provide actual link to source code
- */
+
 export default (fileName: string) =>
   `<script>
   /**
@@ -12,6 +10,7 @@ export default (fileName: string) =>
    * If you actually want to contribute,
    * the Typescript source code with comments
    * is available here:
+   * https://github.com/mmulet/code-relay
    */ 
   ${readFileSync(
     resolve(compiledClientSideDirectory, `./${fileName}.js`)
