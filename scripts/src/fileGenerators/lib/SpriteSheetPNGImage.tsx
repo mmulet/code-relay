@@ -1,13 +1,13 @@
 import React, { FunctionComponent } from "react";
 import { readFileSync } from "fs";
 import { resolve } from "path";
-import { publicDirectory } from "./directories";
+import { docsDirectory } from "./directories";
 
 const SpriteSheetPNGImage: FunctionComponent<{ readonly src: string }> = ({
   src,
 }) => {
   const fileBuffer = readFileSync(
-    resolve(publicDirectory, `./assets/anim/${src}`)
+    resolve(docsDirectory, `./assets/anim/${src}`)
   );
   return (
     <img

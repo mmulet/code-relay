@@ -1,4 +1,4 @@
-import { publicDirectory } from "./directories";
+import { docsDirectory } from "./directories";
 import { sep } from "path";
 
-export default (fileName: string) => `${publicDirectory}${sep}${fileName}`;
+export default (fileName: string) => `${docsDirectory}${sep}${fileName}`;

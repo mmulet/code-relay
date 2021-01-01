@@ -12,8 +12,8 @@ ahead of time and serve as plain html. Read more about this in ./scripts/README.
 
 Here are the folders and their meanings:
 
-- `public` folder is where all user facing content goes.
-  The server serves all files in the `public` folder as `/`
+- `docs` folder is where all user facing content goes.
+  The server serves all files in the `docs` folder as `/`
 
 - `gulp` folder is where all files for the gulp build system go.
   These are all typescript files. These files are all compiled on the fly by ts-node

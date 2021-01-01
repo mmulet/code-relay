@@ -56,7 +56,7 @@ export default class DevelopmentServer {
         if (url.pathname == "/") {
           url.pathname = "/index.html";
         }
-        const fileSystemPath = resolve(__dirname, `../public${url.pathname}`);
+        const fileSystemPath = resolve(__dirname, `../docs${url.pathname}`);
         if (!url.pathname.endsWith("html")) {
           response.sendFile(fileSystemPath);
           return;

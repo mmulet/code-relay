@@ -21,7 +21,7 @@ export interface HTMLFileGenerator {
 
   /**
    * The generated fileName. Like index.html.
-   * The file is saved in ./public/
+   * The file is saved in ./docs/
    */
   readonly fileName: string;
 

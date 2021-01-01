@@ -31,4 +31,4 @@ export const codeExamplesDirectory = resolve(
 
 export const rootDirectory = resolve(scriptsDirectory, `../`);
 
-export const publicDirectory = resolve(rootDirectory, "./public/");
+export const docsDirectory = resolve(rootDirectory, "./docs/");
