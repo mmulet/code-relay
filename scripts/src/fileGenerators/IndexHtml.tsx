@@ -25,7 +25,7 @@ const output: FileGenerator = {
   <style>
   ${commonCSS}
   </style>
-  <script async src="/${animationJS}"></script>
+  <script async src="${animationJS}"></script>
   ${runLifeJavascript}
   `,
   component: () => {
