@@ -1,0 +1,24 @@
+.spin {
+  animation: 3s linear 0s infinite
+    spinner;
+}
+
+@keyframes spinner {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(25px, 25px);
+  }
+  50% {
+    transform: translate(0, 50px);
+  }
+  75% {
+    transform: translate(-25px, 25px);
+  }
+  /** 
+   * @Task
+   *    Make it so it spins in a 
+   *    circle instead of a diamond
+   */
+}

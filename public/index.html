@@ -1,0 +1,802 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- To the attention of Contributors: 
+This file is generated. Do not modify by hand. Modify ./scripts/src/fileGenerators/IndexHtml.tsx instead -->
+<html>
+
+<head>
+<link rel="icon" type="image/png" href="/favicon.png?">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>code relay</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+  <style>
+  
+body {
+    background-color: #263238;
+    color: #eceff1;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a:link {
+    color: #90CAF9;
+}
+
+a:visited {
+    color: #E1BEE7;
+}
+
+.fit {
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.added {
+  background-color: green;
+}
+
+.removed {
+  background-color: red;
+}
+
+
+
+
+  .hamburger-button {
+
+  }
+
+  .nav-button{
+    border: none;
+    background: none;
+    padding: 0px;
+    color: #90CAF9;
+    font-size: 24px;
+    margin: 0px;
+  }
+
+  .wide-nav {
+    display: none;
+  }
+
+  .splash-code {
+    position: absolute;
+  }
+  .center-title {
+
+  }
+  .wide-title{
+    display: none;
+  }
+  .center-title {
+
+  }
+
+  .code-box{
+    margin-top:0;
+    margin-bottom:25px;
+    padding-top:15px;
+    padding-bottom:15px;
+  }
+
+  @media (min-width: 300px){
+    .padded {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .code-box{
+      border-radius:10px;
+      box-shadow:4px 6px 5px 0px #000000;
+      padding-left:5px;
+      padding-right:5px;
+    }
+  }
+
+  @media (min-width: 350px) {
+    .code-box{
+      border-radius:10px;
+     
+      padding-left:30px;
+      padding-right:30px;
+     
+      
+    }
+  }
+  
+  @media (min-width: 520px) {
+    .splash-code {
+      position: relative;
+    }
+    .dance {
+      height: 600px;
+    }
+
+    .wide-nav {
+      display: flex;
+    }
+    .wide-title {
+      display: unset;
+    }
+    .center-title {
+      display: none;
+    }
+
+    .hamburger-button {
+      display: none;
+    }
+
+    .padded {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+  #snow-header-button{
+    transition: all 0.3s linear;
+  }
+
+
+  /* PrismJS 1.22.0
+  https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+clike+javascript+jsx */
+  /**
+   * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
+   * Based on https://github.com/chriskempson/tomorrow-theme
+   * @author Rose Pritchard
+   */
+  
+  code[class*="language-"],
+  pre[class*="language-"] {
+    color: #ccc;
+    background: none;
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-size: 1em;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+  
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+  
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+  
+  /* Code blocks */
+  pre[class*="language-"] {
+    padding: 1em;
+    margin: 0.5em 0;
+    overflow: auto;
+  }
+  
+  :not(pre) > code[class*="language-"],
+  pre[class*="language-"] {
+    background: #2d2d2d;
+  }
+  
+  /* Inline code */
+  :not(pre) > code[class*="language-"] {
+    padding: 0.1em;
+    border-radius: 0.3em;
+    white-space: normal;
+  }
+  
+  .token.comment,
+  .token.block-comment,
+  .token.prolog,
+  .token.doctype,
+  .token.cdata {
+    color: #b2b2b2;
+  }
+  
+  .token.punctuation {
+    color: #88c6be;
+  }
+  
+  .token.tag,
+  .token.attr-name,
+  .token.namespace,
+  .token.deleted {
+    color: #fc929e;
+  }
+  
+  .token.function-name {
+    color: #6196cc;
+  }
+  
+  .token.boolean,
+  .token.number {
+    color: #ff8b50;
+  }
+  
+  .token.function {
+    color: #79b6f2;
+  }
+  
+  .token.property,
+  .token.class-name,
+  .token.constant,
+  .token.symbol {
+    color: #fac863;
+  }
+  
+  .token.selector,
+  .token.important,
+  .token.atrule,
+  .token.keyword,
+  .token.builtin {
+    color: #c5a5c5;
+  }
+  
+  .token.string,
+  .token.char,
+  .token.attr-value,
+  .token.regex {
+    color: #8dc891;
+  }
+  
+  .token.variable {
+    color: #d7deea;
+  }
+  
+  .token.operator,
+  .token.entity,
+  .token.url {
+    color: #fc929e;
+  }
+  
+  .token.important,
+  .token.bold {
+    font-weight: bold;
+  }
+  .token.italic {
+    font-style: italic;
+  }
+  
+  .token.entity {
+    cursor: help;
+  }
+  
+  .token.inserted {
+    color: green;
+  }
+  .token.melon {
+    color: #34FF79;
+  }
+  .token.cheese {
+    color: #4F7EFF;
+  }
+  .token.lemon {
+    color: #3CE8FF;
+  }
+  
+  .token.property,
+  .token.number,
+  .token.function-name,
+  .token.constant,
+  .token.symbol,
+  .token.deleted {
+    color: #5a9bcf;
+  }
+  
+
+
+  </style>
+  <script async src="./animation.js"></script>
+  <script>
+  /**
+   * Hello! Here is the code un-minified so,
+   * you can play around with it. 
+   * If you actually want to contribute,
+   * the Typescript source code with comments
+   * is available here:
+   */ 
+  "use strict";
+var runningLife = false;
+var oldCode = null;
+var cells = [];
+var newBornCells = [];
+var dyingCells = [];
+var theNextCells = [];
+var msDelay = 500;
+const runLifeButtonId = "runlifebutton";
+const speedInputId = `speed`;
+const runLifeErrorId = "runLifeError";
+function runLife() {
+    const lifeButton = document.getElementById(runLifeButtonId);
+    if (!lifeButton) {
+        return;
+    }
+    if (!runningLife) {
+        lifeButton.innerText = "Pause";
+        const codeId = "code";
+        const code = oldCode !== null && oldCode !== void 0 ? oldCode : document.getElementById(codeId);
+        if (!code) {
+            return;
+        }
+        try {
+            eval(`(() => {${code.innerText}})();`);
+        }
+        catch (err) {
+            const error = document.getElementById(runLifeErrorId);
+            error.innerHTML = `<h2>Error!</h2>
+        <h3>Message:</h3>
+        <p>${err.message}</p>
+        <p>Code is being eval'ed so I don't have a stack trace for you.
+         Try copying pasting the code into an actual editor. 
+         Or refresh the page to reload the code, discarding all changes.</p>`;
+            throw err;
+        }
+        runningLife = true;
+        return;
+    }
+    lifeButton.innerText = "Resume";
+    runningLife = false;
+}
+function reset() {
+    if (oldCode == null) {
+        return;
+    }
+    const lifeCanvasId = "life";
+    const canvas = document.getElementById(lifeCanvasId);
+    if (!canvas) {
+        return;
+    }
+    {
+        const runLifeButton = document.getElementById(runLifeButtonId);
+        if (runLifeButton) {
+            runLifeButton.innerText = "Run";
+        }
+    }
+    runningLife = false;
+    canvas.replaceWith(oldCode);
+    canvas.remove();
+    oldCode = null;
+    cells = [];
+    newBornCells = [];
+}
+function speedChange(that) {
+    const speed = that.value;
+    msDelay = (1 / speed) * 1000;
+    {
+        const speedControl = document.getElementById(speedInputId);
+        if (speedControl) {
+            speedControl.innerText = speed.toString();
+        }
+    }
+}
+</script>
+  
+</head>
+<body>
+    <header style="position:fixed;top:0;left:0;z-index:1000;background-color:rgb(40, 44, 52);box-shadow:0px 6px 5px 0px #000000;min-width:100%"><div style="padding:5px;display:flex;flex-flow:row;align-items:center"><a class="wide-title" href="/"><img height="40" width="96" src="/assets/webTitle0001.png" alt="code relay"/></a><div class="hamburger-button"><a class="nav-button" href="/navigation.html" style="text-decoration:none">☰</a></div><div class="wide-nav"><div class="fit code-box" style="background-color:rgb(40, 44, 52);margin-top:0;margin-bottom:0;padding:5px;margin-right:5px;box-shadow:2px 2px 5px 0px #000000;text-align:center"><a href="/#WhatIsIt" style="margin-right:5px;text-decoration:none">What is it?</a></div><div class="fit code-box" style="background-color:rgb(40, 44, 52);margin-top:0;margin-bottom:0;padding:5px;margin-right:5px;box-shadow:2px 2px 5px 0px #000000;text-align:center"><a href="/#Why" style="margin-right:5px;text-decoration:none">Why?</a></div><div class="fit code-box" style="background-color:rgb(40, 44, 52);margin-top:0;margin-bottom:0;padding:5px;margin-right:5px;box-shadow:2px 2px 5px 0px #000000;text-align:center"><a href="/#faq" style="margin-right:5px;text-decoration:none">FAQ</a></div><div class="fit code-box" style="background-color:rgb(40, 44, 52);margin-top:0;margin-bottom:0;padding:5px;margin-right:5px;box-shadow:2px 2px 5px 0px #000000;text-align:center"><a href="/examples.html" style="text-decoration:none">Examples</a></div><div class="fit code-box" style="background-color:rgb(40, 44, 52);margin-top:0;margin-bottom:0;padding:5px;margin-right:5px;box-shadow:2px 2px 5px 0px #000000;text-align:center"><a href="/maintainer.html" style="text-decoration:none">Are you a maintainer?</a></div></div><div style="color:#FFFD42;flex:1;justify-content:center;display:flex;flex-flow:row"><a class="center-title" href="/"><img height="40" width="96" src="/assets/webTitle0001.png" alt="code relay"/></a></div><a href="/gettingStarted.html" style="padding-right:5px;text-decoration:none">Start Now!</a></div></header><div style="display:flex;flex-flow:column;align-items:center"><div style="min-width:100%;max-width:100%;background-color:black;display:block;margin-top:30px"><div class="fit" style="margin:0 auto;position:relative"><video style="max-width:100%;display:block" width="800" height="600" autoplay="" muted="" loop="" playsinline="" title="Code Relay"><source src="assets/webmNoBackGround0001-0072.webm" type="video/webm"/><source src="assets/h264NoBackGround0001-0072.mp4" type="video/mp4"/></video><div class="splash-code" style="bottom:0;text-align:center;padding-left:5px;padding-right:5px"><h1><span>Rapid fire</span> <span style="color:#4F7EFF">open source</span> <!-- -->coding.</h1><h1>What can<!-- --> <span style="color:#F4FF70">you</span> <!-- -->do in<!-- --> <span style="color:#8465FF">5</span> <!-- -->minutes?</h1></div></div></div><div style="min-width:100%;min-height:100px;background-image:linear-gradient(black, #263238)"></div></div><div style="display:flex;flex-flow:column;align-items:center"><div class="padded" style="max-width:600px;margin-top:40px"><div><div id="first-guy" class="fit code-box snow-box" style="background-color:rgb(40, 44, 52);margin-top:0">Welcome to<!-- --> <span style="color:#FFFD42;font-size:20px">code<span style="font-size:30px">Relay</span></span> <!-- -->: The fastest and easiest way to contribute to open source!<br/> From click to commit in 5 minutes:<div style="display:flex;flex-flow:row;justify-content:center;margin-top:15px"><a href="/gettingStarted.html">Start now!</a></div></div><div><div>Happy Holidays!: ❄️Enjoy the snow❄️</div></div><div style="min-width:100%;border-bottom:1px solid black;margin-bottom:5px;margin-top:5px"></div><div><a id="WhatIsIt" style="display:block;position:relative;top:-60px;visibility:hidden"></a><h2>CodeRelay: What is it?</h2><div id="second-guy" class="fit code-box snow-box" style="background-color:rgb(40, 44, 52)"><em>Code relay</em> is a development platform for writing open source software using the code-relay workflow.<h3>Code Relay Workflow:</h3><ol><li>An open source Maintainer uploads a task to Code Relay.</li><div><code><span class="token keyword">do</span> </code><code><span class="token punctuation">{
+</span></code><div style="padding-left:35px"><li>Code Relay assigns this task to a Contributor.</li><li>The Contributor only completes a small part of the task, passing the rest on to the next Contributor.</li></div><code><span class="token punctuation">} </span><span class="token keyword">while</span><span class="token punctuation">(</span>task_is_not_yet_complete<span class="token punctuation">);</span></code></div></ol></div><h4>Analogies:</h4><ul><li>Code relay is to coding as a relay race is to running.</li><li>Stack Overflow questions meets Github pull-requests</li></ul><h3>Let&#x27;s break that down:</h3><p>Open source maintainers, the owners and lead developers of open source projects, submit tasks to code relay. (<a href="/maintainer.html">Are you a maintainer? Learn how to submit tasks here</a>)</p><div id="third-guy" class="fit code-box snow-box" style="background-color:rgb(40, 44, 52);margin-top:40px"><h3>Tasks like</h3><ul><li>Add some unit tests for this function</li><li>Document this class</li><li>Look for a fix for this issue</li></ul></div><p>Code Relay assigns these tasks to &quot;Contributors&quot;</p><div id="fourth-guy" class="fit code-box snow-box" style="background-color:rgb(40, 44, 52);margin-top:64px"><h3>Become a Contributor!</h3><p>Send an email to <a href="mailto:contribute@coderelay.io">contribute@coderelay.io</a>.</p> <p>Code Relay will reply with a task.</p></div><p>So, Code Relay has replied to your email and assigned you a task. You are probably thinking:</p><p>You: &quot;So, now I have to complete this task, right?&quot;</p><h2>Answer: No!</h2><p> <!-- -->This is code <em>relay</em>, relay as in<!-- --> <a href="https://en.wikipedia.org/wiki/Relay_race">relay race</a>. Your job is to take this task, and make <em>incremental</em> progress. You could:<ul><li>Divide the task into two or more smaller tasks</li><li>Lookup relevant parts of the documentation.</li><li>Narrow the scope of the task.</li></ul></p><p>It&#x27;s not a marathon all-night coding session. You get in, and get out within...let&#x27;s say 5 minutes!</p><p>That&#x27;s it.</p><p><ul><li>No hunting for issues tagged: &quot;good-first-bug&quot;.</li><li>No ignored pull-requests.</li><li>No hassle</li></ul>Just you and the code.</p></div><div style="min-width:100%;border-bottom:1px solid black;margin-bottom:5px;margin-top:5px"></div><div><a id="Why" style="display:block;position:relative;top:-60px;visibility:hidden"></a><h2>Code Relay: Why?</h2><p>Here&#x27;s something you may or may not know: the world runs on open source software. But, let&#x27;s not sugarcoat things: up until now, open source was hard, thankless, work. Work done by a small number of dedicated and passionate <em>volunteers</em>. Volunteers who are now facing burn-out and the stark realities of people and companies using the fruits of their labor without giving back.</p><p>So let&#x27;s give back. Let&#x27;s give back with a vengeance. If each of us spent a few minutes a day, we could contribute an enormous amount of code, measured in <em>billions</em> of lines. No kidding. Let me show you, but first, let me introduce you to our goal:</p><div id="fifth-guy" class="fit code-box snow-box" style="background-color:rgb(40, 44, 52);margin-top:50px"><span><span class="token operator" style="font-size:20px">Goal:<!-- --> </span><span>Every software developer in the world to use CodeRelay for</span> <span class="token number">5</span> minutes every day.</span></div><ul><li>There are about 25 million software developers in the world (and growing!!).</li><li>Code relay takes a contributor about 5 minutes* to divide a task, and in that time, the developer contributes about two lines[1] of code</li></ul><p>If we can get every one of the to spend 5 minutes a day working on open source code, using code relay. We will get:</p><div class="fit code-box snow-box" style="background-color:rgb(40, 44, 52)"><span class="token tag"><span class="token number">25 million</span> <span class="token operator">*</span> <span class="token number">2 lines of code</span> <span class="token operator">*</span> <span class="token number">365 days</span> <span class="token operator">=</span> <span class="token number">18 billion</span> lines of code per year!!</span></div><h2>18 billion lines of code!</h2><p>For comparison, that&#x27;s enough to write :<ul><li>left-pad: 400 millions times</li><li>Chromium: 2000 times over</li><li>The linux kernel: 500 times</li><li>And all of Google&#x27;s source code for all of their many services: 6 times[2]!</li></ul>Every year! This is open source&#x27;s missing link! We can make our own web browsers, operating systems, anything you can dream of. The future is now, so let&#x27;s make it a good one.</p><div>[1] Two lines in 5 minutes is our goal. We don&#x27;t have any actual statistics on this yet. Refer to the <a href="">wiki</a> to check up on this goal&#x27;s progress.</div><div><p>[2]Source is<!-- --> <a href="https://web.archive.org/web/20201023155014if_/https://docs.google.com/spreadsheets/d/1s9u0uprmuJvwR2fkRqxJ4W5Wfomimmk9pwGTK4Dn_UI/edit#gid=5">here</a>. Admittedly, the data looks a little outdated, and everyone knows that lines-of-code is a shaky measurement at best, but this is just some<!-- --> <a href="https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation">back-of-the-napkin math</a></p><p>Have better data? Please make a pull request on the wiki<!-- --> <a href="">here</a></p></div></div><div style="min-width:100%;border-bottom:1px solid black;margin-bottom:5px;margin-top:5px"></div><h2>Try it out!</h2><p>Now that you took 5 minutes to learn what Code Relay is all about and why, the next logical step is to spend the next 5 minutes trying it out:<div id="sixth-guy" class="fit code-box snow-box" style="background-color:rgb(40, 44, 52);margin-top:96px"><h2>Start Now!</h2><ol><li>Send an email to<!-- --> <a href="mailto:contribute@coderelay.io">contribute@coderelay.io</a></li><li>Code Relay will reply with your first task!</li></ol><p>That&#x27;s it!</p><div style="min-width:100%;border-bottom:1px solid black;margin-bottom:5px;margin-top:5px"></div><p> <!-- -->Your name, email address, or any other personal information is not sold to or shared with any third-parties. Check out our<!-- --> <a href="/privacy.html">privacy policy</a></p></div>For a tiny amount of your time, you will get: An easy way to light up your GitHub contribution graph,<h3>Want to learn more about Code Relay?</h3><ul><li><a href="/examples.html">Check out some examples</a></li><li>Have any questions? Checkout out the<!-- --> <a href="/#faq">Frequently Asked Questions</a> or send Mike an email at <a href="mailto:mike@coderelay.io">mike@coderelay.io</a></li></ul></p><div style="min-width:100%;border-bottom:1px solid black;margin-bottom:5px;margin-top:5px"></div><h2>Code Relay: When and where?</h2><p>Any time. Any place.</p><div style="min-width:100%;border-bottom:1px solid black;margin-bottom:5px;margin-top:5px"></div></div><div><a id="faq" style="display:block;position:relative;top:-60px;visibility:hidden"></a><h2>FAQ:</h2><div><div class="fit code-box snow-box" style="background-color:rgb(40, 44, 52)"><h2>Q: <!-- -->Does Code Relay cost anything?</h2><p>No. Code Relay is free for both Maintainers and Contributors. Code Relay exists to make the world a <a href="/#Why">better place</a>.</p></div><div class="fit code-box snow-box" style="background-color:rgb(40, 44, 52)"><h2>Q: <!-- -->What do you mean when you say &#x27;open source&#x27;?</h2><p><p>All tasks submitted to Code Relay must be for a project licensed with an Open Source Initiative (OSI) approved<!-- --> <a href="https://opensource.org/licenses">license</a>, which means the project meets OSI&#x27;s<!-- --> <a href="https://opensource.org/osd">definition of open source.</a></p><p>Practically, this ensures that all of your contributions are going to help the community, not to do someone&#x27;s job for them.</p></p></div><div class="fit code-box snow-box" style="background-color:rgb(40, 44, 52)"><h2>Q: <!-- -->Does Code Relay replace GitHub, GitLab, etc.</h2><p>No. This platform is meant to be used with those services, not replace them.</p></div><div class="fit code-box snow-box" style="background-color:rgb(40, 44, 52)"><h2>Q: <!-- -->Does code-relay replace the pull-request workflow</h2><p>No. Code relay is meant to supplement current workflows, not replace.</p></div></div></div><div style="min-width:100%;border-bottom:1px solid black;margin-bottom:5px;margin-top:5px"></div><h2>Welcome to the bottom of the page. </h2><p>Since you have ventured this far down, I have a treat for you. Below is the code for a game of life using the code for this game of life as the input!</p><h4>Recursive life!</h4><p> It&#x27;s editable too, so happy hacking!</p><div id="runLifeError"></div><div style="display:flex;flex-flow:row;justify-content:space-evenly;margin-bottom:20px"><div><button class="fit code-box" style="background-color:rgb(40, 44, 52);border:none;color:white;cursor:pointer;margin:0;box-shadow:2px 2px 5px 0px #000000" id="runlifebutton" onClick="runLife()">Run</button></div><div><button class="fit code-box" style="background-color:rgb(40, 44, 52);border:none;color:white;cursor:pointer;margin:0;box-shadow:2px 2px 5px 0px #000000" id="" onClick="reset()">Reset</button></div></div><div style="display:flex;flex-flow:row;justify-content:center"><label>Speed:</label><span><input
+            type="range"
+            min="1"
+            max="60"
+            value="2"
+            onchange="speedChange(this)"
+            ></span><span id="speed">2</span> <span>fps</span></div><div style="display:flex;flex-flow:column;align-items:center"><div class="fit code-box snow-box" style="background-color:rgb(40, 44, 52);max-height:400px;overflow:auto;padding:5px"><pre style="white-space:pre-wrap;word-break:break-word;position:relative"><code id="code" contenteditable="true"><span class="token string">"use strict"</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> __rest <span class="token operator">=</span>
+  <span class="token punctuation">(</span><span class="token keyword">this</span> <span class="token operator">&amp;&amp;</span> <span class="token keyword">this</span><span class="token punctuation">.</span>__rest<span class="token punctuation">)</span> <span class="token operator">||</span>
+  <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">s<span class="token punctuation">,</span> e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> t <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> p <span class="token keyword">in</span> s<span class="token punctuation">)</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>
+        <span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">hasOwnProperty</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>
+          s<span class="token punctuation">,</span>
+          p
+        <span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span>
+        e<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>p<span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">0</span>
+      <span class="token punctuation">)</span>
+        t<span class="token punctuation">[</span>p<span class="token punctuation">]</span> <span class="token operator">=</span> s<span class="token punctuation">[</span>p<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>
+      s <span class="token operator">!=</span> <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span>
+      <span class="token keyword">typeof</span> Object<span class="token punctuation">.</span>getOwnPropertySymbols <span class="token operator">===</span>
+        <span class="token string">"function"</span>
+    <span class="token punctuation">)</span>
+      <span class="token keyword">for</span> <span class="token punctuation">(</span>
+        <span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span>
+          p <span class="token operator">=</span> Object<span class="token punctuation">.</span><span class="token function">getOwnPropertySymbols</span><span class="token punctuation">(</span>
+            s
+          <span class="token punctuation">)</span><span class="token punctuation">;</span>
+        i <span class="token operator">&lt;</span> p<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+        i<span class="token operator">++</span>
+      <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>
+          e<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>p<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span>
+          <span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">propertyIsEnumerable</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>
+            s<span class="token punctuation">,</span>
+            p<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+          <span class="token punctuation">)</span>
+        <span class="token punctuation">)</span>
+          t<span class="token punctuation">[</span>p<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">=</span> s<span class="token punctuation">[</span>p<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> t<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> lifeCanvasId <span class="token operator">=</span> <span class="token string">"life"</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> codeId <span class="token operator">=</span> <span class="token string">"code"</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">playGame</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>globalThis<span class="token punctuation">.</span>oldCode <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">firstTimeSetup</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">const</span> cnvs <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span>
+    lifeCanvasId
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> context <span class="token operator">=</span>
+    cnvs <span class="token operator">===</span> <span class="token keyword">null</span> <span class="token operator">||</span> cnvs <span class="token operator">===</span> <span class="token keyword">void</span> <span class="token number">0</span>
+      <span class="token operator">?</span> <span class="token keyword">void</span> <span class="token number">0</span>
+      <span class="token operator">:</span> cnvs<span class="token punctuation">.</span><span class="token function">getContext</span><span class="token punctuation">(</span><span class="token string">"2d"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>context <span class="token operator">||</span> <span class="token operator">!</span>cnvs<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  context<span class="token punctuation">.</span>font <span class="token operator">=</span> <span class="token string">"13px monospace"</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> color <span class="token operator">=</span> <span class="token string">"#282c34"</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> timeSinceLastDrawFrame <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> timeOfLastFrame <span class="token operator">=</span> performance<span class="token punctuation">.</span><span class="token function">now</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> firstState <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> evenOdd <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> <span class="token function-variable function">runLoop</span> <span class="token operator">=</span> <span class="token punctuation">(</span>
+    <span class="token parameter">totalTimeElapsed</span>
+  <span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>globalThis<span class="token punctuation">.</span>runningLife<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">requestAnimationFrame</span><span class="token punctuation">(</span>runLoop<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    timeSinceLastDrawFrame <span class="token operator">+=</span>
+      totalTimeElapsed <span class="token operator">-</span>
+      timeOfLastFrame<span class="token punctuation">;</span>
+    timeOfLastFrame <span class="token operator">=</span> totalTimeElapsed<span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>
+      timeSinceLastDrawFrame <span class="token operator">>=</span>
+      globalThis<span class="token punctuation">.</span>msDelay
+    <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      firstState <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+      timeSinceLastDrawFrame <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+      globalThis<span class="token punctuation">.</span>cells <span class="token operator">=</span>
+        globalThis<span class="token punctuation">.</span>theNextCells<span class="token punctuation">;</span>
+      <span class="token function">nextState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>firstState<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      evenOdd <span class="token operator">=</span> <span class="token operator">!</span>evenOdd<span class="token punctuation">;</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>evenOdd<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">drawCells</span><span class="token punctuation">(</span>
+      context<span class="token punctuation">,</span>
+      cnvs<span class="token punctuation">.</span>width<span class="token punctuation">,</span>
+      cnvs<span class="token punctuation">.</span>height<span class="token punctuation">,</span>
+      color<span class="token punctuation">,</span>
+      timeSinceLastDrawFrame <span class="token operator">/</span>
+        globalThis<span class="token punctuation">.</span>msDelay
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token function">requestAnimationFrame</span><span class="token punctuation">(</span>runLoop<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> maxCells <span class="token operator">=</span> <span class="token number">300</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> stationaryColor <span class="token operator">=</span>
+  <span class="token string">"rgb(255,255,255)"</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> stationaryCharacter <span class="token operator">=</span> <span class="token string">"m"</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">firstTimeSetup</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> _a<span class="token punctuation">;</span>
+  <span class="token function">codeToCells</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> cnvs <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span>
+    <span class="token string">"canvas"</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  cnvs<span class="token punctuation">.</span>id <span class="token operator">=</span> lifeCanvasId<span class="token punctuation">;</span>
+  <span class="token keyword">const</span> code <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span>
+    codeId
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> ratio <span class="token operator">=</span>
+    window<span class="token punctuation">.</span>devicePixelRatio <span class="token operator">||</span> <span class="token number">1</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> w <span class="token operator">=</span> code<span class="token punctuation">.</span>offsetWidth<span class="token punctuation">;</span>
+  <span class="token keyword">const</span> h <span class="token operator">=</span> code<span class="token punctuation">.</span>offsetHeight<span class="token punctuation">;</span>
+  cnvs<span class="token punctuation">.</span>width <span class="token operator">=</span> w <span class="token operator">*</span> ratio<span class="token punctuation">;</span>
+  cnvs<span class="token punctuation">.</span>height <span class="token operator">=</span> h <span class="token operator">*</span> ratio<span class="token punctuation">;</span>
+  cnvs<span class="token punctuation">.</span>style<span class="token punctuation">.</span>width <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>w<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+  cnvs<span class="token punctuation">.</span>style<span class="token punctuation">.</span>height <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>h<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">px</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+  <span class="token punctuation">(</span>_a <span class="token operator">=</span>
+    cnvs <span class="token operator">===</span> <span class="token keyword">null</span> <span class="token operator">||</span> cnvs <span class="token operator">===</span> <span class="token keyword">void</span> <span class="token number">0</span>
+      <span class="token operator">?</span> <span class="token keyword">void</span> <span class="token number">0</span>
+      <span class="token operator">:</span> cnvs<span class="token punctuation">.</span><span class="token function">getContext</span><span class="token punctuation">(</span><span class="token string">"2d"</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">===</span>
+    <span class="token keyword">null</span> <span class="token operator">||</span> _a <span class="token operator">===</span> <span class="token keyword">void</span> <span class="token number">0</span>
+    <span class="token operator">?</span> <span class="token keyword">void</span> <span class="token number">0</span>
+    <span class="token operator">:</span> _a<span class="token punctuation">.</span><span class="token function">scale</span><span class="token punctuation">(</span>ratio<span class="token punctuation">,</span> ratio<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  code<span class="token punctuation">.</span><span class="token function">replaceWith</span><span class="token punctuation">(</span>cnvs<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  globalThis<span class="token punctuation">.</span>oldCode <span class="token operator">=</span> code<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">codeToCells</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> code <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span>
+    codeId
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>code<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">const</span> cells <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> x <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token keyword">let</span> y <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">const</span> node <span class="token keyword">of</span> code<span class="token punctuation">.</span>childNodes<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span> text<span class="token punctuation">,</span> color <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">nodeToText</span><span class="token punctuation">(</span>
+      node
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">const</span> char <span class="token keyword">of</span> text<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">switch</span> <span class="token punctuation">(</span>char<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">case</span> <span class="token string">"\n"</span><span class="token operator">:</span>
+          y <span class="token operator">+=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+          x <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+          <span class="token keyword">continue</span><span class="token punctuation">;</span>
+        <span class="token keyword">case</span> <span class="token string">" "</span><span class="token operator">:</span>
+          x <span class="token operator">+=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+          <span class="token keyword">continue</span><span class="token punctuation">;</span>
+        <span class="token keyword">default</span><span class="token operator">:</span>
+          <span class="token keyword">break</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      cells<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        x<span class="token punctuation">,</span>
+        y<span class="token punctuation">,</span>
+        character<span class="token operator">:</span> char<span class="token punctuation">,</span>
+        color<span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      x <span class="token operator">+=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  globalThis<span class="token punctuation">.</span>cells <span class="token operator">=</span> cells<span class="token punctuation">;</span>
+  <span class="token function">nextState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">nodeToText</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">node</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> _a<span class="token punctuation">;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>node<span class="token punctuation">.</span>nodeType <span class="token operator">==</span> <span class="token number">3</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      text<span class="token operator">:</span>
+        <span class="token punctuation">(</span>_a <span class="token operator">=</span> node<span class="token punctuation">.</span>textContent<span class="token punctuation">)</span> <span class="token operator">!==</span>
+          <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span> _a <span class="token operator">!==</span> <span class="token keyword">void</span> <span class="token number">0</span>
+          <span class="token operator">?</span> _a
+          <span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      color<span class="token operator">:</span> <span class="token string">"white"</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    text<span class="token operator">:</span> node<span class="token punctuation">.</span>innerText<span class="token punctuation">,</span>
+    color<span class="token operator">:</span> <span class="token function">getComputedStyle</span><span class="token punctuation">(</span>node<span class="token punctuation">)</span><span class="token punctuation">.</span>color<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">nextState</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span>
+    newLiveCells<span class="token punctuation">,</span>
+    newBornCells<span class="token punctuation">,</span>
+    dyingCells<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">nextCells</span><span class="token punctuation">(</span>globalThis<span class="token punctuation">.</span>cells<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  globalThis<span class="token punctuation">.</span>theNextCells <span class="token operator">=</span> newLiveCells<span class="token punctuation">;</span>
+  globalThis<span class="token punctuation">.</span>newBornCells <span class="token operator">=</span> newBornCells<span class="token punctuation">;</span>
+  globalThis<span class="token punctuation">.</span>dyingCells <span class="token operator">=</span> dyingCells<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">nextCells</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">liveCells</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> newCellMap <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Map</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">const</span> liveCell <span class="token keyword">of</span> liveCells<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">setupAdjacentCells</span><span class="token punctuation">(</span>
+      liveCell<span class="token punctuation">,</span>
+      newCellMap
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">const</span> newLiveCells <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> newBornCells <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> dyingCells <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Set</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> stationaryOdds <span class="token operator">=</span>
+    <span class="token punctuation">(</span><span class="token number">0.25</span> <span class="token operator">*</span> globalThis<span class="token punctuation">.</span>msDelay<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">1000</span><span class="token punctuation">;</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> _a <span class="token keyword">of</span> newCellMap<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">[</span>_<span class="token punctuation">,</span> _b<span class="token punctuation">]</span> <span class="token operator">=</span> _a<span class="token punctuation">,</span>
+      <span class="token punctuation">{</span> count<span class="token punctuation">,</span> live <span class="token punctuation">}</span> <span class="token operator">=</span> _b<span class="token punctuation">,</span>
+      cell <span class="token operator">=</span> <span class="token function">__rest</span><span class="token punctuation">(</span>_b<span class="token punctuation">,</span> <span class="token punctuation">[</span>
+        <span class="token string">"count"</span><span class="token punctuation">,</span>
+        <span class="token string">"live"</span><span class="token punctuation">,</span>
+      <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>
+      count <span class="token operator">!=</span> <span class="token number">3</span> <span class="token operator">&amp;&amp;</span>
+      <span class="token punctuation">(</span><span class="token operator">!</span>live <span class="token operator">||</span> count <span class="token operator">!=</span> <span class="token number">2</span><span class="token punctuation">)</span>
+    <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>live<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        dyingCells<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>
+          cell<span class="token punctuation">.</span>y <span class="token operator">*</span> maxCells <span class="token operator">+</span> cell<span class="token punctuation">.</span>x
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      <span class="token keyword">continue</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>
+      live <span class="token operator">&amp;&amp;</span>
+      Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> stationaryOdds
+    <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">0.5</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> oldColor <span class="token operator">=</span> cell<span class="token punctuation">.</span>color<span class="token punctuation">;</span>
+        cell<span class="token punctuation">.</span>color <span class="token operator">=</span> stationaryColor<span class="token punctuation">;</span>
+        stationaryColor <span class="token operator">=</span>
+          oldColor <span class="token operator">!==</span> <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span>
+          oldColor <span class="token operator">!==</span> <span class="token keyword">void</span> <span class="token number">0</span>
+            <span class="token operator">?</span> oldColor
+            <span class="token operator">:</span> stationaryColor<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> oldCharacter <span class="token operator">=</span>
+          cell<span class="token punctuation">.</span>character<span class="token punctuation">;</span>
+        cell<span class="token punctuation">.</span>character <span class="token operator">=</span> stationaryCharacter<span class="token punctuation">;</span>
+        stationaryCharacter <span class="token operator">=</span>
+          oldCharacter <span class="token operator">!==</span> <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span>
+          oldCharacter <span class="token operator">!==</span> <span class="token keyword">void</span> <span class="token number">0</span>
+            <span class="token operator">?</span> oldCharacter
+            <span class="token operator">:</span> stationaryCharacter<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    newLiveCells<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>cell<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>live <span class="token operator">&amp;&amp;</span> cell<span class="token punctuation">.</span>parent <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      newBornCells<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>cell<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    newLiveCells<span class="token punctuation">,</span>
+    newBornCells<span class="token punctuation">,</span>
+    dyingCells<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">setupAdjacentCells</span> <span class="token operator">=</span> <span class="token punctuation">(</span>
+  <span class="token parameter">liveCell<span class="token punctuation">,</span>
+  newCellMap</span>
+<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> key <span class="token operator">=</span>
+    liveCell<span class="token punctuation">.</span>y <span class="token operator">*</span> maxCells <span class="token operator">+</span> liveCell<span class="token punctuation">.</span>x<span class="token punctuation">;</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> row <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span> row <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">;</span> row<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span>
+      <span class="token keyword">let</span> column <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+      column <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+      column<span class="token operator">++</span>
+    <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">setupCell</span><span class="token punctuation">(</span>
+        liveCell<span class="token punctuation">,</span>
+        key<span class="token punctuation">,</span>
+        row<span class="token punctuation">,</span>
+        column<span class="token punctuation">,</span>
+        newCellMap
+      <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">setupCell</span> <span class="token operator">=</span> <span class="token punctuation">(</span>
+  <span class="token parameter">parentCell<span class="token punctuation">,</span>
+  key<span class="token punctuation">,</span>
+  row<span class="token punctuation">,</span>
+  column<span class="token punctuation">,</span>
+  out</span>
+<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> _a<span class="token punctuation">,</span> _b<span class="token punctuation">;</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span>
+    character<span class="token punctuation">,</span>
+    color<span class="token punctuation">,</span>
+    x<span class="token punctuation">,</span>
+    y<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span> <span class="token operator">=</span> parentCell<span class="token punctuation">;</span>
+  <span class="token keyword">const</span> newKey <span class="token operator">=</span>
+    key <span class="token operator">+</span> column <span class="token operator">+</span> row <span class="token operator">*</span> maxCells<span class="token punctuation">;</span>
+  <span class="token keyword">const</span> newCell <span class="token operator">=</span>
+    <span class="token punctuation">(</span>_a <span class="token operator">=</span> out<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>newKey<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">!==</span> <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span>
+    _a <span class="token operator">!==</span> <span class="token keyword">void</span> <span class="token number">0</span>
+      <span class="token operator">?</span> _a
+      <span class="token operator">:</span> <span class="token punctuation">{</span>
+          count<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+          x<span class="token operator">:</span> x <span class="token operator">+</span> column<span class="token punctuation">,</span>
+          y<span class="token operator">:</span> y <span class="token operator">+</span> row<span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>newKey <span class="token operator">==</span> key<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    newCell<span class="token punctuation">.</span>live <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+    newCell<span class="token punctuation">.</span>character <span class="token operator">=</span>
+      Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">0.00005</span>
+        <span class="token operator">?</span> <span class="token string">"🐑"</span>
+        <span class="token operator">:</span> character<span class="token punctuation">;</span>
+    newCell<span class="token punctuation">.</span>color <span class="token operator">=</span> color<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+    newCell<span class="token punctuation">.</span>count <span class="token operator">+=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>
+      newCell<span class="token punctuation">.</span>live <span class="token operator">&amp;&amp;</span>
+      Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">0.2</span>
+    <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">0.5</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        newCell<span class="token punctuation">.</span>color <span class="token operator">=</span> color<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        newCell<span class="token punctuation">.</span>character <span class="token operator">=</span> character<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>
+      <span class="token operator">!</span>newCell<span class="token punctuation">.</span>live <span class="token operator">&amp;&amp;</span>
+      newCell<span class="token punctuation">.</span>count <span class="token operator">&lt;=</span> <span class="token number">3</span>
+    <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">const</span> odds <span class="token operator">=</span>
+        newCell<span class="token punctuation">.</span>count <span class="token operator">==</span> <span class="token number">2</span>
+          <span class="token operator">?</span> <span class="token number">0.5</span>
+          <span class="token operator">:</span> <span class="token number">0.333333</span><span class="token punctuation">;</span>
+      <span class="token keyword">const</span> isParent <span class="token operator">=</span>
+        newCell<span class="token punctuation">.</span>character <span class="token operator">==</span> <span class="token keyword">null</span> <span class="token operator">||</span>
+        Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> odds<span class="token punctuation">;</span>
+      newCell<span class="token punctuation">.</span>character <span class="token operator">=</span> isParent
+        <span class="token operator">?</span> character
+        <span class="token operator">:</span> newCell<span class="token punctuation">.</span>character<span class="token punctuation">;</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>isParent<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        newCell<span class="token punctuation">.</span>parent <span class="token operator">=</span> parentCell<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+      newCell<span class="token punctuation">.</span>color <span class="token operator">=</span>
+        Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&lt;</span> odds
+          <span class="token operator">?</span> color
+          <span class="token operator">:</span> <span class="token punctuation">(</span>_b <span class="token operator">=</span> newCell<span class="token punctuation">.</span>color<span class="token punctuation">)</span> <span class="token operator">!==</span>
+              <span class="token keyword">null</span> <span class="token operator">&amp;&amp;</span> _b <span class="token operator">!==</span> <span class="token keyword">void</span> <span class="token number">0</span>
+          <span class="token operator">?</span> _b
+          <span class="token operator">:</span> color<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  out<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span>newKey<span class="token punctuation">,</span> newCell<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token function-variable function">drawCells</span> <span class="token operator">=</span> <span class="token punctuation">(</span>
+  <span class="token parameter">ctxt<span class="token punctuation">,</span>
+  width<span class="token punctuation">,</span>
+  height<span class="token punctuation">,</span>
+  blankColor<span class="token punctuation">,</span>
+  frameProgress</span>
+<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> cells <span class="token operator">=</span> globalThis<span class="token punctuation">.</span>cells<span class="token punctuation">;</span>
+  <span class="token keyword">const</span> newBornCells <span class="token operator">=</span>
+    globalThis<span class="token punctuation">.</span>newBornCells<span class="token punctuation">;</span>
+  <span class="token keyword">const</span> dyingCells <span class="token operator">=</span>
+    globalThis<span class="token punctuation">.</span>dyingCells<span class="token punctuation">;</span>
+  ctxt<span class="token punctuation">.</span>fillStyle <span class="token operator">=</span> blankColor<span class="token punctuation">;</span>
+  ctxt<span class="token punctuation">.</span><span class="token function">fillRect</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> width<span class="token punctuation">,</span> height<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> transparencyColor <span class="token operator">=</span>
+    <span class="token number">1</span> <span class="token operator">-</span> frameProgress<span class="token punctuation">;</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">const</span> <span class="token punctuation">{</span>
+    x<span class="token punctuation">,</span>
+    y<span class="token punctuation">,</span>
+    character<span class="token punctuation">,</span>
+    color<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span> <span class="token keyword">of</span> cells<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    ctxt<span class="token punctuation">.</span>fillStyle <span class="token operator">=</span> color<span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>
+      dyingCells<span class="token punctuation">.</span><span class="token function">has</span><span class="token punctuation">(</span>y <span class="token operator">*</span> maxCells <span class="token operator">+</span> x<span class="token punctuation">)</span>
+    <span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      ctxt<span class="token punctuation">.</span>globalAlpha <span class="token operator">=</span> transparencyColor<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    ctxt<span class="token punctuation">.</span><span class="token function">fillText</span><span class="token punctuation">(</span>
+      character<span class="token punctuation">,</span>
+      x <span class="token operator">*</span> <span class="token number">7.16</span><span class="token punctuation">,</span>
+      y <span class="token operator">*</span> <span class="token number">15</span> <span class="token operator">+</span> <span class="token number">12</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    ctxt<span class="token punctuation">.</span>globalAlpha <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">const</span> <span class="token punctuation">{</span>
+    x<span class="token punctuation">,</span>
+    y<span class="token punctuation">,</span>
+    character<span class="token punctuation">,</span>
+    color<span class="token punctuation">,</span>
+    parent<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span> <span class="token keyword">of</span> newBornCells<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    ctxt<span class="token punctuation">.</span>fillStyle <span class="token operator">=</span> color<span class="token punctuation">;</span>
+    <span class="token keyword">const</span> newX <span class="token operator">=</span>
+      <span class="token punctuation">(</span>x <span class="token operator">-</span> parent<span class="token punctuation">.</span>x<span class="token punctuation">)</span> <span class="token operator">*</span> frameProgress <span class="token operator">+</span>
+      parent<span class="token punctuation">.</span>x<span class="token punctuation">;</span>
+    <span class="token keyword">const</span> newY <span class="token operator">=</span>
+      <span class="token punctuation">(</span>y <span class="token operator">-</span> parent<span class="token punctuation">.</span>y<span class="token punctuation">)</span> <span class="token operator">*</span> frameProgress <span class="token operator">+</span>
+      parent<span class="token punctuation">.</span>y<span class="token punctuation">;</span>
+    ctxt<span class="token punctuation">.</span><span class="token function">fillText</span><span class="token punctuation">(</span>
+      character<span class="token punctuation">,</span>
+      newX <span class="token operator">*</span> <span class="token number">7.16</span><span class="token punctuation">,</span>
+      newY <span class="token operator">*</span> <span class="token number">15</span> <span class="token operator">+</span> <span class="token number">12</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token function">playGame</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></div><ul><li>Who lives, who dies, who tells your story, is determined by the character&#x27;s position.</li><li>Keeping with the &quot;life&quot; theme of the game, the colors and characters themselves are decided by genetic algorithms. New cells inherit things from their parents. This has a random component, which makes every game different.</li><li>It works with emojis too, I have borne witness to the great war between the red open parenthesis and the sheep emoji. (Woooldn&#x27;t you know, the sheep won)</li></ul><div style="min-width:100%;border-bottom:1px solid black;margin-bottom:5px;margin-top:5px"></div><div><a href="arm.html">Okay, here&#x27;s one last easter egg for you</a></div></div><footer style="margin-bottom:25px"><div style="min-width:100%;border-bottom:1px solid black;margin-bottom:5px;margin-top:5px"></div><div>© 2020 Late for Dinner Studios, LLC</div><div><a href="/terms.html">Terms</a> <a href="/privacy.html">Privacy</a></div></footer></div><img style="display:none" id="guy1-png" src="/assets/anim/guy1.png" width="715" height="389"/><img style="display:none" id="guy2-png" src="/assets/anim/guy2.png" width="715" height="389"/><img style="display:none" id="guy3-png" src="/assets/anim/guy3.png" width="520" height="454"/><img style="display:none" id="guy4-png" src="/assets/anim/guy4.png" width="390" height="324"/><img style="display:none" id="guy5-png" src="/assets/anim/guy5.png" width="195" height="129"/><img style="display:none" id="guy6-png" src="/assets/anim/guy6.png" width="845" height="649"/><img style="display:none" id="guy6Crowd-png" src="/assets/anim/guy6Crowd.png" width="419" height="379"/>
+    
+</body>
+</html>
