@@ -12,7 +12,7 @@ import {
 import TitleImage from "./TitleImage";
 
 const Title = ({ type }: { readonly type: "wide" | "center" }) => (
-  <a className={`${type}-title`} href="/">
+  <a className={`${type}-title`} href="index.html">
     <TitleImage />
   </a>
 );

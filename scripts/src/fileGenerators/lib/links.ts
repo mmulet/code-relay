@@ -10,7 +10,7 @@ import {
   terms,
 } from "./fileNames";
 
-const indexPageFragment = (fragment: string) => `#${fragment}`;
+const indexPageFragment = (fragment: string) => `index.html#${fragment}`;
 
 export const whatIsItLink = indexPageFragment(whatIsIt);
 export const whyLink = indexPageFragment(whyId);

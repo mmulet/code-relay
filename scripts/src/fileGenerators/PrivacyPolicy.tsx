@@ -2,7 +2,6 @@ import React from "react";
 import { commonCSS } from "./lib/commonCss";
 import FileGenerator from "./lib/FileGenerator";
 import Page from "./lib/Page";
-import WhatIsIt from "./lib/WhatIsIt";
 import { privacy } from "./lib/fileNames";
 
 const output: FileGenerator = {
@@ -58,7 +57,6 @@ const output: FileGenerator = {
         </p>
         <p>This policy is effective as of 11 December 2020.</p>
       </div>
-      <WhatIsIt />
     </Page>
   ),
 };
