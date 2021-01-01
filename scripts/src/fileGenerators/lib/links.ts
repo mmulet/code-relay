@@ -10,13 +10,13 @@ import {
   terms,
 } from "./fileNames";
 
-const indexPageFragment = (fragment: string) => `/#${fragment}`;
+const indexPageFragment = (fragment: string) => `#${fragment}`;
 
 export const whatIsItLink = indexPageFragment(whatIsIt);
 export const whyLink = indexPageFragment(whyId);
 export const faqLink = indexPageFragment(faqId);
 
-const pageLink = (link: string) => `/${link}`;
+const pageLink = (link: string) => `${link}`;
 
 export const gettingStartedLink = pageLink(gettingStarted);
 export const maintainerLink = pageLink(maintainer);

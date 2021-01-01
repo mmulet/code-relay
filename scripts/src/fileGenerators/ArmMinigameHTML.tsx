@@ -14,7 +14,7 @@ const output: FileGenerator = {
   <style>
   ${commonCSS}
   </style>
-  <script async src="./${armMiniGameJS}"></script>
+  <script async src="/${armMiniGameJS}"></script>
   `,
   component: () => (
     <Page>

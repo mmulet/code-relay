@@ -7,7 +7,7 @@ const SpriteSheetPNGImage: FunctionComponent<{ readonly src: string }> = ({
   src,
 }) => {
   const fileBuffer = readFileSync(
-    resolve(docsDirectory, `./assets/anim/${src}`)
+    resolve(docsDirectory, `assets/anim/${src}`)
   );
   return (
     <img
@@ -15,7 +15,7 @@ const SpriteSheetPNGImage: FunctionComponent<{ readonly src: string }> = ({
         display: "none",
       }}
       id={src.split(".").join("-")}
-      src={`/assets/anim/${src}`}
+      src={`assets/anim/${src}`}
       /**
        * grab the height from the IHDR image header
        * @see https://www.w3.org/TR/PNG/#11IHDR
