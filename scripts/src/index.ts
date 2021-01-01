@@ -1,5 +1,6 @@
 import generateAll from "./fileGenerators/lib/generateAll";
 
+
 /**
  * This is the starting point of the site generation.
  * This will look for all modules in fileGenerators,
