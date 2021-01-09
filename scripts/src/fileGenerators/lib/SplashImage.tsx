@@ -33,10 +33,10 @@ export default () => (
           title="Code Relay"
         >
           <source
-            src="assets/webmNoBackGround0001-0072.webm"
+            src="assets/webm.webm"
             type="video/webm"
           />
-          <source src="assets/h264NoBackGround0001-0072.mp4" type="video/mp4" />
+          <source src="assets/mp4.mp4" type="video/mp4" />
         </video>
 
         <div
