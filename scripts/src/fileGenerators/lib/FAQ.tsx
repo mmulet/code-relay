@@ -33,6 +33,12 @@ export default () => (
       <QA q="Does code-relay replace the pull-request workflow">
         No. Code relay is meant to supplement current workflows, not replace.
       </QA>
+      <QA q="What backend are you using? Is it open source, where is the repo?">
+        There isn't one, yet. Right now, I (<a href="github.com/mmulet">@mmulet</a>) respond to each email
+        personally. When code relay grows large enough that it needs an
+        automated backend, I intend to build it using code relay, and it will be
+        open source.
+      </QA>
     </div>
   </div>
 );

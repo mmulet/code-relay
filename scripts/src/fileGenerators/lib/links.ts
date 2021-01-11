@@ -24,3 +24,5 @@ export const privacyLink = pageLink(privacy);
 export const termsLink = pageLink(terms);
 export const navigationLink = pageLink(navigation);
 export const exampleLink = pageLink(examples);
+
+export const webPageGitHubRepoLink = "https://github.com/mmulet/code-relay"

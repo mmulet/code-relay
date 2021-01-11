@@ -6,6 +6,7 @@ import {
   gettingStartedLink,
   maintainerLink,
   navigationLink,
+  webPageGitHubRepoLink,
   whatIsItLink,
   whyLink,
 } from "./links";
@@ -130,6 +131,16 @@ const Header: FunctionComponent<{
             }}
           >
             Are you a maintainer?
+          </a>
+        </ButtonBox>
+        <ButtonBox>
+          <a
+            href={webPageGitHubRepoLink}
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            GitHub
           </a>
         </ButtonBox>
       </div>

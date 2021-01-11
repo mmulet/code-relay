@@ -8,6 +8,7 @@ import {
   faqLink,
   gettingStartedLink,
   maintainerLink,
+  webPageGitHubRepoLink,
   whatIsItLink,
   whyLink,
 } from "./lib/links";
@@ -89,6 +90,12 @@ const output: FileGenerator = {
           <span className="token function-name">←</span>
           <span className="token function">FAQ</span>
           <span className="token comment">]</span>
+        </CodeLink>
+        <CodeLink href={webPageGitHubRepoLink}>
+          <span className="token operator">@</span>
+          <span className="token function">Github </span>
+          <span className="token boolean">= </span>
+          <span className="token inserted">2</span>
         </CodeLink>
       </div>
     );

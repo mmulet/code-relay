@@ -94,10 +94,15 @@ a:visited {
       
     }
   }
+
+  .splash-code {
+    min-width: 100%;
+  }
   
-  @media (min-width: 520px) {
+  @media (min-width: 700px) {
     .splash-code {
       position: relative;
+      min-width: unset;
     }
     .dance {
       height: 600px;

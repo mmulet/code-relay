@@ -1,7 +1,18 @@
 # coderelay.io
 
 This is the source for the code-relay website.
-The content is all plain html, but we do have some 
+
+---
+
+## Looking for the repo for the back-end code?
+
+There isn't one, yet. Right now, I ([@mmulet](github.com/mmulet)) answer all emails personally.
+When code relay grows large enough that it needs an automated backend,
+I intend to build it using code relay, and it will be open source.
+
+---
+
+The content is all plain html, but we do have some
 javascript for interactive animations and other fun things.
 In the true spirit of web-development, we have re-invented the wheel
 and created a custom build system using React/React-dom server.
@@ -21,10 +32,13 @@ Here are the folders and their meanings:
 - `scripts` folder is where all source files for the website reside.
 
 ## Development
+
 Install dependencies:
+
 ```
 npm install .
 ```
+
 Then, generate the site.
 
 ```
