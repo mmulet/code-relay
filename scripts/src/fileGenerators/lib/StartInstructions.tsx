@@ -9,7 +9,14 @@ export default ({ divide }: { readonly divide?: boolean }) => (
     <ol>
       <li>
         Send an email to{" "}
-        <a href={contributeMailHref}>{contributeEmailAddress}</a>
+        <a href={contributeMailHref}>{contributeEmailAddress}</a> or{" "}
+        <a href="https://github.com/mmulet/code-relay/issues">
+          open an issue code-relay repo
+        </a>
+        <br />
+        Subject or issue Title: Contribute
+        <br />
+        Body: Programming language/framework you want to work with
       </li>
       <li>Code Relay will reply with your first task!</li>
     </ol>
