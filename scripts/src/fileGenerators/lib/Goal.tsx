@@ -106,7 +106,7 @@ export default () => (
         </a>
       </p>
       <p>
-        Have better data? Please make a pull request
+        Have better data? Please make a pull request{" "}
         <a href="https://github.com/mmulet/code-relay">here</a>
       </p>
     </div>

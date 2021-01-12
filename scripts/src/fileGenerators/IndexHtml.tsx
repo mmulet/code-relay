@@ -8,7 +8,7 @@ import HorizontalDivider from "./lib/HorizontalDivider";
 import CodeBox from "./lib/CodeBox";
 import FAQ from "./lib/FAQ";
 import { animationJS, arm, index } from "./lib/fileNames";
-import { exampleLink, faqLink, gettingStartedLink } from "./lib/links";
+import { exampleLink, faqLink } from "./lib/links";
 import { questionMailHref } from "./lib/questionMailHref";
 import StartInstructions from "./lib/StartInstructions";
 import Life, { javascript as runLifeJavascript } from "./lib/Life";
@@ -46,12 +46,7 @@ const output: FileGenerator = {
           }
         >
           <div>
-            <CodeBox
-              wallId="first-guy"
-              style={{
-                marginTop: 0,
-              }}
-            >
+            <p>
               Welcome to{" "}
               <span
                 style={{
@@ -69,18 +64,36 @@ const output: FileGenerator = {
                 </span>
               </span>{" "}
               : The fastest and easiest way to contribute to open source!
-              <br /> From click to commit in 5 minutes:
-              <div
-                style={{
-                  display: "flex",
-                  flexFlow: "row",
-                  justifyContent: "center",
-                  marginTop: 15,
-                }}
-              >
-                <a href={gettingStartedLink}>Start now!</a>
-              </div>
+            </p>
+            <h3> Code Relay is to coding as a relay race is to running:</h3>
+            <ol>
+              <li>
+                <p>
+                  Just like a relay breaks up a footrace into a series of
+                  smaller races, Code Relay breaks up an issue into a series of
+                  small tasks!
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  In the same way that a different athlete runs each leg of a
+                  relay race, Code Relay assigns each task to a different
+                  contributor.
+                </p>
+              </li>
+            </ol>
+
+            <CodeBox
+              wallId="first-guy"
+              style={{
+                marginTop: 70,
+              }}
+            >
+              <h2>You can start your first task right now:</h2>
+              <StartInstructions divide />
             </CodeBox>
+            <p>Or keep reading to learn more about Code Relay.</p>
             <Snow />
             <HorizontalDivider />
             <WhatIsIt />

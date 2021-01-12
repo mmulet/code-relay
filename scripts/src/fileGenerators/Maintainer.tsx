@@ -126,7 +126,7 @@ const output: FileGenerator = {
           <HeaderOffsetAnchor id="star-star" />
           **We plan to support more hosting sites in the future. We are just
           starting with GitHub because it is the most popular, and users are
-          likely to familiar with it.
+          likely to be familiar with it.
         </p>
         <HorizontalDivider />
         <h2>Don't know where to start?</h2>
