@@ -71,9 +71,12 @@ const output: FileGenerator = {
           </li>
           <li>
             Email your task description to{" "}
-            <a href="mailto:newTask@coderelay.io">newTask@coderelay.io</a>. You
-            will get a reply once your task has been processed and is in the
-            system.
+            <a href="mailto:newTask@coderelay.io">newTask@coderelay.io</a> or{" "}
+            <a href="https://github.com/mmulet/code-relay/issues">
+              open an issue code-relay repo with the title: NewTask
+            </a>
+            . You will get a reply once your task has been processed and is in
+            the system.
           </li>
           <li>
             Sit back and wait. Go write some code that you actually enjoy
