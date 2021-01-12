@@ -65,6 +65,14 @@ const output: FileGenerator = {
               </span>{" "}
               : The fastest and easiest way to contribute to open source!
             </p>
+            <p>
+              Code Relay is a platform for contributing to open source code.
+              What makes code relay unique is that instead of writing a whole
+              bug fix, you make <em>incremental</em> progress and then pass it
+              along ot the next contributor. Like how you only run part of a
+              race in a relay race and then pass the baton off to the next
+              runner.
+            </p>
             <h3> Code Relay is to coding as a relay race is to running:</h3>
             <ol>
               <li>
