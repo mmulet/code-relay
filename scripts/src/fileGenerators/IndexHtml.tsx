@@ -69,7 +69,7 @@ const output: FileGenerator = {
               Code Relay is a platform for contributing to open source code.
               What makes code relay unique is that instead of writing a whole
               bug fix, you make <em>incremental</em> progress and then pass it
-              along ot the next contributor. Like how you only run part of a
+              along to the next contributor. Like how you only run part of a
               race in a relay race and then pass the baton off to the next
               runner.
             </p>
