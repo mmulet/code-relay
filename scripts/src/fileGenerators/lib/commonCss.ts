@@ -95,9 +95,7 @@ a:visited {
     }
   }
 
-  .splash-code {
-    min-width: 100%;
-  }
+ 
   
   @media (min-width: 700px) {
     .splash-code {
