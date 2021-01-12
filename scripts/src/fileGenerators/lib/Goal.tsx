@@ -75,7 +75,7 @@ export default () => (
     <p>
       For comparison, that's enough to write :
       <ul>
-        <li>left-pad: 400 millions times</li>
+        <li>left-pad: 400 million times</li>
         <li>Chromium: 2000 times over</li>
         <li>The linux kernel: 500 times</li>
         <li>
