@@ -6,7 +6,7 @@ This is the source for the code-relay website.
 
 ## Looking for the repo for the back-end code?
 
-There isn't one, yet. Right now, I ([@mmulet](github.com/mmulet)) answer all emails personally.
+There isn't one, yet. Right now, I ([@mmulet](https://github.com/mmulet)) answer all emails personally.
 When code relay grows large enough that it needs an automated backend,
 I intend to build it using code relay, and it will be open source.
 
