@@ -3,6 +3,12 @@
 This is the source for the code-relay website.
 
 ---
+# What is code relay?
+
+Code Relay is a platform for contributing to open source code. What makes code relay unique is that instead of writing a whole bug fix, you make incremental progress and then pass it along to the next contributor. Like how you only run part of a race in a relay race and then pass the baton off to the next runner.
+Learn more at [coderelay.io](https://www.coderelay.io)
+
+---
 
 ## Looking for the repo for the back-end code?
 
