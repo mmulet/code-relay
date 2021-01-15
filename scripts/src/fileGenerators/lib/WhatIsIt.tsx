@@ -98,7 +98,7 @@ export default () => (
     </p>
     <p>
       It's not a marathon all-night coding session. You get in, and get out
-      within...let's say 5 minutes!
+      within...let's say 15 minutes!
     </p>
     <p>That's it.</p>
     <p>

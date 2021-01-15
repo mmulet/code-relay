@@ -20,7 +20,7 @@ export default ({ divide }: { readonly divide?: boolean }) => (
       </li>
       <li>Code Relay will reply with your first task!</li>
     </ol>
-    <p>That's it! Go from click to commit in 5 minutes!</p>
+    <p>That's it! Go from click to commit in 15 minutes!</p>
     {divide ? <HorizontalDivider /> : null}
     <PrivacyDisclaimer />
   </>

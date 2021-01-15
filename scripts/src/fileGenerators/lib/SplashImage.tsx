@@ -74,7 +74,7 @@ export default () => (
                 color: "#8465FF",
               }}
             >
-              5
+              15
             </span>{" "}
             minutes?
           </h1>

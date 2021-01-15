@@ -31,7 +31,7 @@ After you send this email, we will send a reply with
 info on your first task and instructions 
 about how to complete it. 
 
-You should receive a response within 5 minutes, but 
+You should receive a response within 15 minutes, but 
 if not, please be patient.
 Code Relay is brand new and 
 we are still working out the kinks.
