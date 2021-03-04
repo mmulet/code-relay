@@ -53,15 +53,30 @@ const output: FileGenerator = {
         <h2>You can play it anywhere!</h2>
         <CodeBox>
           <h3>Your word processor!</h3>
-          <img src="/assets/snip.png" />
+          <img
+            style={{
+              maxWidth: "100%",
+            }}
+            src="/assets/snip.png"
+          />
         </CodeBox>
         <CodeBox>
           <h3>Your image editor!</h3>
-          <img src="/assets/image_editor.png" />
+          <img
+            style={{
+              maxWidth: "100%",
+            }}
+            src="/assets/image_editor.png"
+          />
         </CodeBox>
         <CodeBox>
           <h3>Your code editor!</h3>
-          <img src="/assets/codeEditor.png" />
+          <img
+            style={{
+              maxWidth: "100%",
+            }}
+            src="/assets/codeEditor.png"
+          />
           <h3>Even works with syntax highlighting</h3>
         </CodeBox>
         <div>
