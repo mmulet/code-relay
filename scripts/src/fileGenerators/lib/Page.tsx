@@ -5,8 +5,9 @@ import { termsLink, privacyLink } from "./links";
 
 const Page: FunctionComponent<{
   readonly above?: ReactNode;
-  readonly snowButton?: boolean
-}> = ({ children, above, snowButton }) => (
+  readonly snowButton?: boolean;
+  readonly year?: number;
+}> = ({ children, above, snowButton, year = 2020 }) => (
   <>
     <Header snowButton={snowButton} />
     {above}
@@ -32,7 +33,7 @@ const Page: FunctionComponent<{
         }}
       >
         <HorizontalDivider />
-        <div>© 2020 Late for Dinner Studios, LLC</div>
+        <div>© {year} Late for Dinner Studios, LLC</div>
         <div>
           <a href={termsLink}>Terms</a> <a href={privacyLink}>Privacy</a>
         </div>

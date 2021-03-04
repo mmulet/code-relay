@@ -12,6 +12,7 @@ export const privacy = "privacy.html";
 export const terms = "terms.html";
 export const examples = "examples.html";
 export const fontemonTest = "fontemonTest.html";
+export const fontemon = "fontemon.html";
 export const notFound = "404.html";
 export const arm = "arm.html";
 
