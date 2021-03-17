@@ -118,6 +118,9 @@ const output: FileGenerator = {
         </CodeBox>
 
         <FontKid />
+        <div>
+          Checkout the image credits <a href="https://github.com/mmulet/code-relay/tree/main/markdown/fontemon_credits">here</a>
+        </div>
       </div>
     </Page>
   ),

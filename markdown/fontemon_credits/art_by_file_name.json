@@ -1,0 +1,341 @@
+{
+  "Note": {
+    "note": "All assets are Creative Commons Attribution-ShareAlike 4.0 unless otherwise noted",
+    "url": "https://forum.tuxemon.org/thread.php?id=4",
+    "tuxemon": "most of the sprites are available at https://wiki.tuxemon.org/index.php?title=File:{FILEname}  Example: https://wiki.tuxemon.org/index.php?title=File:Bigfin_front_reduced.png",
+    "order": "In order of appearance",
+    "Made by Michael Mulet": {
+      "licence": "Proprietary",
+      "copyright": "Copyright 2021, Late for Dinner Studios, LLC",
+      "sprites": [
+        "fontemonLogo.png",
+        "codeRelayLogo",
+        "Run.png",
+        "bunyanBoot.png"
+      ]
+    },
+    "the font within the font": {
+      "name": "gohufont",
+      "url": "https://github.com/hchargois/gohufont",
+      "license": "WTFPL version 2"
+    }
+  },
+  "Bigfin_front_reduced.png": {
+    "l": "CC BY-SA",
+    "artist": "Levaine",
+    "blurb": "Commissioned by Sanglorian from Levaine, based on art by extyrranomon. Under CC BY-SA.",
+    "fontemon": "WHALEXANDRIA"
+  },
+  "Sushi_mons_18.png": {
+    "l": "CC BY-SA",
+    "artist": "Princess-phoenix",
+    "url": "https://www.deviantart.com/princess-phoenix/art/Sushi-Fakemon-862163087",
+    "fontemon": "unnamed"
+  },
+  "lance_ice00.png": {
+    "l": "CC-0",
+    "url": [
+      "https://wiki.tuxemon.org/index.php?title=File:Lance_ice.gif",
+      "https://github.com/sparklinlabs/superpowers-asset-packs"
+    ],
+    "artist": "sparklinlabs",
+    "blurb": "Resized by Sanglorian"
+  },
+
+  "claw_blue00.png": {
+    "l": "CC-0",
+    "url": [
+      "https://github.com/sparklinlabs/superpowers-asset-packs",
+      "https://wiki.tuxemon.org/index.php?title=File:Claw_blue.gif"
+    ],
+    "frames": ["claw_blue01"],
+    "artist": "sparklinlabs",
+    "blurb": "Adapted by Sanglorian"
+  },
+  "smallOrb": {
+    "l": "CC-0",
+    "url": "https://github.com/sparklinlabs/superpowers-asset-packs",
+    "artist": "sparklinlabs"
+  },
+  "hit03.png": {
+    "l": "CC-BY 4.0",
+    "url": "https://opengameart.org/content/pixelated-hit-animations",
+    "artist": "Unnamed"
+  },
+  "Nimrod_boss.png": {
+    "artist": "Sanglorian",
+    "url": "https://wiki.tuxemon.org/index.php?title=File:Nimrod_boss.gif",
+    "fontemon": "Fred"
+  },
+  "snock.png": {
+    "blurb": "Commissioned by Sanglorian from from Involuntary Twitch",
+    "artist": "Involuntary Twitch",
+    "url": "https://wiki.tuxemon.org/index.php?title=File:Ddm210x-67f46e40-65da-43c9-b93b-3d6b0051be3a.png",
+    "fontemon": "SOCKWELL"
+  },
+  "Agnite_by_aviculor-da6gkxs.png": {
+    "blurb": "Commissioned by Sanglorian from from Involuntary Twitch",
+    "url": "https://www.deviantart.com/aviculor/art/Agnite-615513088",
+    "original_design": ["Leo", "Sanglorian", "extyrranomon"],
+    "fontemon": "PAPYROMANIAC"
+  },
+  "Lambert1.png": {
+    "blurb": "Sprited by Chairry-Art, based on a sprite by Levaine from an artwork by exty, from an artwork by Sanglorian, from an artwork by Leo.",
+    "fontemon": "VERDANTA"
+  },
+  "Anoleaf.png": {
+    "artist": "Spalding004",
+    "fontemon": "PROGGITO"
+  },
+  "smokebomb.png": {
+    "l": "CC0",
+    "url": "https://wiki.tuxemon.org/index.php?title=File:Smokebomb.gif",
+    "artist": "sparklinlabs"
+  },
+  "map0001.png": {
+    "l": "CC0",
+    "url": [
+      "https://opengameart.org/content/fantasy-parchment-set",
+      "https://wiki.tuxemon.org/index.php?title=File:Map.png"
+    ]
+  },
+  "Mail_0003.png": {
+    "l": "CC BY",
+
+    "blurb": "Adapted from a sprite from Catch Challenger (CC BY), art director Jordan Brule. Project developer Herman Brule.",
+    "url": [
+      "https://github.com/alphaonex86/CatchChallenger-datapack",
+      "https://wiki.tuxemon.org/images/a/a5/Male-trainer-overland.gif"
+    ]
+  },
+  "Girl_Front_(64x64).png": {
+    "l": "CC BY",
+    "blurb": "Adapted from a sprite from Catch Challenger (CC BY), art director Jordan Brule. Project developer Herman Brule.",
+    "fontemon": "Susan",
+    "url": "https://github.com/alphaonex86/CatchChallenger-datapack"
+  },
+  "Female-trainer-back-main.png": {
+    "artist": "Leo"
+  },
+  "Nuenflu_front.png": {
+    "l": "CC-BY 3.0",
+    "artist": "princess-phoenix",
+    "fontemon": "SCOURIER"
+  },
+  "Agnite_head.png": {
+    "blurb": "Based on a sprite by Aviculor.",
+    "artist": "Sanglorian"
+  },
+  "Pound.gif": {
+    "artist": "tamashihoshi"
+  },
+  "Tornado_bulk.gif": {
+    "artist": "daneeklu",
+    "url": "https://opengameart.org/content/extended-lpc-magic-pack"
+  },
+  "Pixel_icons_by_oceansdream13.png": {
+    "l": "CC-BY 3.0",
+    "url": "https://opengameart.org/content/various-inventory-24-pixel-icon-set",
+    "artist": "OceansDream"
+  },
+  "2_by_levaine-dalaeg8.png": {
+    "blurb": "Commissioned by Sanglorian (CC BY-SA 4.0), from Levaine, based on art by exty which was based on art by  Leo.",
+    "artist": "Levaine",
+    "fontemon": "PAPYROMANTIC"
+  },
+  "Monk.png": {
+    "artist": "alphaonex86",
+    "blurb": "A sprite from Catch Challenger (CC BY), art director Jordan Brule. Project developer Herman Brule.",
+    "url": "https://wiki.tuxemon.org/index.php?title=File:Front_(64x64px).png"
+  },
+  "Sushi_mons_9.png": {
+    "artist": "Princess-phoenix",
+    "url": "https://www.deviantart.com/princess-phoenix/art/Sushi-Fakemon-862163087",
+    "fontemon": "CAVIARLONE"
+  },
+  "Lambert-back.gif": {
+    "artist": "Sanglorian"
+  },
+  "dog.png": {
+    "artist": "Shepardskin",
+    "url": "https://opengameart.org/content/dog-sprites"
+  },
+  "heal_swarm00.png": {
+    "artist": "sparklinlabs"
+  },
+  "I_C_Watermellon_24x24.png": {
+    "l": "CC0",
+    "artist": "Sanglorian",
+
+    "blurb": "Adapted by Sanglorian from a sprite by Henrique Lazarini from the CC0 '496 pixel art icons for medieval/fantasy RPG' set."
+  },
+  "Lambert2.png": {
+    "blurb": "Sprited by Chairry-Art, based on a sprite by Sanglorian",
+    "artist": "Chairry-Art",
+    "fontemon": "VERDANTOR"
+  },
+  "Martialboy-recolor.png": {
+    "artist": "Sanglorian",
+    "blurb": "Created by Sanglorian from the CC BY 4.0 template by KinGabe.",
+    "url": "https://telles0808.itch.io/isometric-template"
+  },
+  "Samuraibug-front-alt.png": {
+    "blurb": "By Leo from a sprite by Cavalcadeur from an illustration by Leo",
+    "artist": "Leo",
+    "fontemon": "HELVETIKHAN"
+  },
+  "Anoleaf3.png": {
+    "artist": "Spalding004",
+    "fontemon": "PROGGITO"
+  },
+  "whisp_fire00.png": {
+    "url": "https://opengameart.org/content/gothicvania-cemetery-pack",
+    "l": "CC0"
+  },
+  "water_shot00.png": {
+    "url": "https://wiki.tuxemon.org/index.php?title=File:Watershot.gif",
+    "artist": "tamashihoshi"
+  },
+  "Gectile.png": {
+    "artist": "Spalding004",
+    "fontemon": "PROGGILE"
+  },
+  "FT_Front_(64x64).png": {
+    "blurb": "A sprite from Catch Challenger (CC BY), art director Jordan Brule. Project developer Herman Brule.",
+    "artist": "alphaonex86"
+  },
+  "Ghosteeth-front.png": {
+    "artist": "tamashihoshi",
+    "fontemon": "SANS-SCAREIF"
+  },
+  "Noctalo_front.png": {
+    "blurb": "A sprite from Catch Challenger (CC BY), art director Jordan Brule. Project developer Herman Brule.",
+    "artist": "alphaonex86",
+    "fontemon": "CHILLER"
+  },
+  "Agnidon_back.png": {
+    "blurb": "Based on the front sprite by Levaine.",
+    "artist": "Levaine",
+    "fontemon": "PAPYROMANTIC"
+  },
+  "Legko-back.png": {
+    "artist": "Sanglorian",
+    "fontemon": "VERDANTOR"
+  },
+  "icetacle03.png": {
+    "url": "https://opengameart.org/content/extended-lpc-magic-pack",
+    "artist": "daneeklu"
+  },
+  "Ghosteeth-menu-01.png": {
+    "artist": "tamashihoshi"
+  },
+  "Ghosteeth-menu-02.png": {
+    "artist": "tamashihoshi"
+  },
+  "Die.png": {
+    "artist": "sparklinlabs"
+  },
+  "Aviator.png": {
+    "url": "https://wiki.tuxemon.org/index.php?title=File:Aviator.gif",
+    "artist": "Sanglorian",
+    "blurb": "Front sprite by Sanglorian from the AV8R design by Leo."
+  },
+  "7_by_levaine-dabti6h.png": {
+    "blurb": "Commissioned by Sanglorian from Levaine, based on art by DevilDman. Under CC BY-SA.",
+    "artist": "Levaine",
+    "fontemon": "AIRIAL"
+  },
+  "Gectile-back.png": {
+    "blurb": "Adapted by Sanglorian from the front sprite by Spalding004.",
+    "artist": "Spalding004"
+  },
+  "whirlwind01.png": {
+    "url": "https://wiki.tuxemon.org/index.php?title=File:Tornado_volume.gif",
+    "artist": "tamashihoshi"
+  },
+  "47.png": {
+    "blurb": "Adapted by Sanglorian from the Superpowers Asset Packs.",
+    "artist": "sparklinlabs"
+  },
+  "Feather_right_0.png": {
+    "url": "https://wiki.tuxemon.org/index.php?title=File:Feather_.png",
+    "artist": "sparklinlabs"
+  },
+  "Ruffalo.png": {
+    "url": "https://opengameart.org/content/isaiah658s-pixel-pack-2",
+    "l": "CC0",
+    "artist": "isaiah658",
+    "fontemon": "OXIMA NOVA"
+  },
+  "lightning_claw00.png": {
+    "url": "https://opengameart.org/content/extended-lpc-magic-pack",
+    "artist": "daneeklu"
+  },
+
+  "3_by_levaine-dalb6gr.png": {
+    "blurb": "Commissioned by Sanglorian from Levaine (CC BY-SA 4.0), working off of an artwork by exty.",
+    "artist": "Levaine",
+    "fontemon": "PAPYROPAPA"
+  },
+  "Agnigon_back.png": {
+    "blurb": "Based on the front sprite by Levaine.",
+    "artist": "Sanglorian",
+    "fontemon": "PAPYROPAPA"
+  },
+  "Firelion_right_000.png": {
+    "url": "https://opengameart.org/content/extended-lpc-magic-pack",
+    "artist": "daneeklu"
+  },
+  "shield_ice11.png": {
+    "url": "https://opengameart.org/content/extended-lpc-magic-pack",
+    "artist": "daneeklu"
+  },
+
+  "The_king_6.png": {
+    "url": "https://opengameart.org/content/icons-food",
+    "l": "CC0",
+    "artist": "thekingphoenix"
+  },
+  "snock_back.png": {
+    "artist": "Involuntary Twitch",
+    "url": "https://wiki.tuxemon.org/index.php?title=File:Ddm2115-78a1a6fb-8ae6-4dd3-abe9-fe60342b22b6.png",
+    "fontemon": "SOCKWELL"
+  },
+  "Greenpresentbox.png": {
+    "blurb": "A sprite from Catch Challenger (CC BY), art director Jordan Brule. Project developer Herman Brule.",
+    "artist": "alphaonex86"
+  },
+  "misc_hit_preview34.png": {
+    "url": "https://opengameart.org/content/pixelated-hit-animations",
+    "artist": "Unnamed"
+  },
+  "snake_right000.png": {
+    "url": "https://opengameart.org/content/extended-lpc-magic-pack",
+    "artist": "daneeklu"
+  },
+  "Moloch-front.png": {
+    "artist": "Sanglorian",
+    "fontemon": "VERDANTOST"
+  },
+  "Moloch-back.png": {
+    "artist": "Sanglorian",
+    "fontemon": "VERDANTOST"
+  },
+  "Vyking_front.png": {
+    "artist": "Chickenshowman",
+    "fontemon": "Leif Ericmon"
+  },
+  "Velocitile.png": {
+    "artist": "Spalding004",
+    "fontemon": "PROGG"
+  },
+  "Velocitile_back.png": {
+    "artist": "Spalding004",
+    "fontemon": "PROGG"
+  },
+  "Cocrune.png": {
+    "url": "https://www.deviantart.com/serpexnessie/art/58-60-Stonifly-Cocrune-Runesquito-666806337",
+    "artist": "serpexnessie",
+    "fontemon": "CALLIBRIMITE"
+  }
+}
