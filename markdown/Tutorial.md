@@ -142,8 +142,6 @@ If you don't see the arrows. Click on the image first.
 The font game engines uses Blender's builtin [keyframe animation](https://docs.blender.org/manual/en/latest/animation/keyframes/introduction.html) for animating.
 Here's the idea:
 
-![animating](./tutorial/animating.mp4 "animating")
-
 1. Turn autokey on. This means that any changes you make to position, will create a "keyframe"
 
 ![autokey](./tutorial/autokey.png "autokey")
