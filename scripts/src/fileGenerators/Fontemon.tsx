@@ -42,6 +42,14 @@ const output: FileGenerator = {
         </div>
         <h2>World's first video game in a font!</h2>
         <CodeBox>
+          <img
+            style={{
+              maxWidth: "100%",
+            }}
+            src="/assets/snip.png"
+          />
+        </CodeBox>
+        <CodeBox>
           <h2>Just want to play? </h2>{" "}
           <a href="#player">Jump to the Web Font player!</a>
         </CodeBox>
@@ -119,7 +127,10 @@ const output: FileGenerator = {
 
         <FontKid />
         <div>
-          Checkout the image credits <a href="https://github.com/mmulet/code-relay/tree/main/markdown/fontemon_credits">here</a>
+          Checkout the image credits{" "}
+          <a href="https://github.com/mmulet/code-relay/tree/main/markdown/fontemon_credits">
+            here
+          </a>
         </div>
       </div>
     </Page>
