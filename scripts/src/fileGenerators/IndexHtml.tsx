@@ -7,7 +7,7 @@ import Page from "./lib/Page";
 import HorizontalDivider from "./lib/HorizontalDivider";
 import CodeBox from "./lib/CodeBox";
 import FAQ from "./lib/FAQ";
-import { animationJS, arm, index } from "./lib/fileNames";
+import { animationJS, arm, fontemon, index } from "./lib/fileNames";
 import { exampleLink, faqLink } from "./lib/links";
 import { questionMailHref } from "./lib/questionMailHref";
 import StartInstructions from "./lib/StartInstructions";
@@ -65,6 +65,9 @@ const output: FileGenerator = {
               </span>{" "}
               : The fastest and easiest way to contribute to open source!
             </p>
+            <CodeBox>
+              <a href={fontemon}>Looking for Fontemon?</a>
+            </CodeBox>
             <p>
               Code Relay is a platform for contributing to open source code.
               What makes code relay unique is that instead of writing a whole

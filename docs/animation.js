@@ -3295,7 +3295,8 @@ class FullScreenAnimation {
         this.context.imageSmoothingEnabled = false;
         this.context.fillStyle = "white";
         const snowBoxClass = "snow-box";
-        this.snowBoxes = (_b = options.snowBoxes) !== null && _b !== void 0 ? _b : Array.from(document.getElementsByClassName(snowBoxClass));
+        this.snowBoxes =
+            (_b = options.snowBoxes) !== null && _b !== void 0 ? _b : Array.from(document.getElementsByClassName(snowBoxClass));
         this.setupMouseAndTouchListeners();
         requestAnimationFrame(this.updateStateAndDraw);
     }
