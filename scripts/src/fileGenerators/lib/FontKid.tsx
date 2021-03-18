@@ -71,7 +71,8 @@ export const FontKid = () => {
           <div>
             Type and keep typing. It's a font, but the font replaces what you
             type with the game! You can type here or you type directly in the
-            game above!
+            game above! If you lose, just press backspace to delete what you typed! There's 
+            always a way to win!
           </div>
         </div>
         <textarea style={{ boxSizing: "border-box" }} id="area" />
