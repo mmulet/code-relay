@@ -127,6 +127,20 @@ const output: FileGenerator = {
 
         <FontKid />
         <div>
+          <h2>Hints and Tips:</h2>
+          <ol>
+            <li>How to beat the game.</li>
+            <li>How to get the true ending</li>
+            <li>
+              All the secrets revealed:{" "}
+              <a href="https://github.com/mmulet/code-relay/tree/main/markdown/Secrets.md">
+                here
+              </a>
+              .<div>Beware of spoilers!</div>
+            </li>
+          </ol>
+        </div>
+        <div>
           Checkout the image credits{" "}
           <a href="https://github.com/mmulet/code-relay/tree/main/markdown/fontemon_credits">
             here
