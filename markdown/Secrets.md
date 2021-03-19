@@ -175,3 +175,24 @@ I mean, did the Flying Meat ever seem strange and out of place to you? That's be
 *
 *
 Well, what else seems off? It's at the very end, right as the totally real fontemon freshmen fred hands you the "trophy". Look for the : then enter the code. After this you'll fight the real, last boss, but you have everything you need, you can do this!
+
+## How do I get the better than best ending?
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+You should know by now. Every time, you see a : that means there's a secret. When you are offered the trophy, don't take it. Press one of the other keys (c or d)
