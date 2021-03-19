@@ -8,7 +8,7 @@ I imagine the average english speaker thinks a font is something like this:
 2. The letter appears on the screen. (We call this a "Glyph")
 
 When rendering [everyday english characters](https://en.wikipedia.org/wiki/ASCII), that's pretty much correct.
-But fonts can do so much more. _A lot_ more. Too much for me to write about in this post, so I'm just going to cover the parts I found to be the most interesting when developing [fontemon](https://coderelay.io/fontemon.html). If there is a lot of interest in a particular part, I'll dive into more detail in another post.
+But fonts can do so much more. _A lot_ more. Too much for me to write about in this post, so I'm just going to cover the parts I found to be the most interesting when developing [fontemon](https://www.coderelay.io/fontemon.html). If there is a lot of interest in a particular part, I'll dive into more detail in another post.
 
 This post is broken into Five posts:
 
@@ -42,7 +42,7 @@ I'm probably missing some too. Each way has it's own benefits and drawbacks, for
   [xkcd 2347](https://xkcd.com/2347/)
   ![this is too true](how/dependency.png "this is so true, it hurts")
 
-  I'll make a [coderelay.io](https://www.coderelay.io) task to work on it, so don't worry, it will get done
+  I'll make a [www.coderelay.io](https://www.coderelay.io) task to work on it, so don't worry, it will get done
 
 - Color PNG or SVG's would look great, but [for reasons I'll talk about later](#how-not-to-make-a-font-game), they would shorten the game by a large margin. I would only be able to fit the introduction, not even the first gym, and _definitely_ not all 8 gyms.
 
