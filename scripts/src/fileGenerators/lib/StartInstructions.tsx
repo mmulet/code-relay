@@ -18,7 +18,11 @@ export default ({ divide }: { readonly divide?: boolean }) => (
         <br />
         Body: Programming language/framework you want to work with
       </li>
-      <li>Code Relay will reply with your first task!</li>
+      <li>
+        By 7 a.m. Pacific time the next day, Code Relay will reply with your
+        first task! Spend 15 minutes or less on it, break it down into smaller
+        tasks, etc. Then pass it on to the next contributor. All the fun of coding without the responsibility.
+      </li>
     </ol>
     <p>That's it! Go from click to commit in 15 minutes!</p>
     {divide ? <HorizontalDivider /> : null}
