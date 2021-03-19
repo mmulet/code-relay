@@ -42,7 +42,7 @@ I'm probably missing some too. Each way has it's own benefits and drawbacks, for
   [xkcd 2347](https://xkcd.com/2347/)
   ![this is too true](how/dependency.png "this is so true, it hurts")
 
-  I'll make a [coderelay.io](https://codrelay.io) task to work on it, so don't worry, it will get done
+  I'll make a [coderelay.io](https://www.coderelay.io) task to work on it, so don't worry, it will get done
 
 - Color PNG or SVG's would look great, but [for reasons I'll talk about later](#how-not-to-make-a-font-game), they would shorten the game by a large margin. I would only be able to fit the introduction, not even the first gym, and _definitely_ not all 8 gyms.
 
