@@ -177,7 +177,7 @@ We will call our glyph: `glyph00000`
 Here is an snippet of an example charstring:
 
 ```xml
-<!-- Charstirng code for glyph00000
+<!-- Charstring code for glyph00000
 Draw 4 sprites, the two monsters and
 two black bars, using subroutines
  -->
