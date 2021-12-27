@@ -18,7 +18,7 @@ export default () => (
     <ExampleStep step="1">
       <p>
         Here we go! Example time! Alice, maintainer of an awesome open-source
-        react app needs a new loading spinner. So, she uploads a new tak to
+        react app needs a new loading spinner. So, she uploads a new task to
         code-relay:
       </p>
       <CodeExample codeExampleFileName="step2.jsx" />
