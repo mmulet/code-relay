@@ -6,6 +6,7 @@ import PrivacyDisclaimer from "./PrivacyDisclaimer";
 
 export default ({ divide }: { readonly divide?: boolean }) => (
   <>
+    <p><b>Code Relay is currently paused. It'll be back soon, but please don't ask for a task right now.</b></p>
     <ol>
       <li>
         Send an email to{" "}
