@@ -72,7 +72,7 @@ const output: FileGenerator = {
           <li>
             Email your task description to{" "}
             <a href="mailto:newTask@coderelay.io">newTask@coderelay.io</a> or{" "}
-            <a href="https://github.com/mmulet/code-relay/issues">
+            <a href="https://github.com/AverseABFun-windows/code-relay/issues">
               open an issue code-relay repo with the title: NewTask
             </a>
             . You will get a reply once your task has been processed and is in
