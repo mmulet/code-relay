@@ -6,12 +6,12 @@ import PrivacyDisclaimer from "./PrivacyDisclaimer";
 
 export default ({ divide }: { readonly divide?: boolean }) => (
   <>
-    <p><b>Code Relay is currently paused. It'll be back soon, but please don't ask for a task right now.</b></p>
+    <p><b>Code Relay is back!</b></p>
     <ol>
       <li>
         Send an email to{" "}
         <a href={contributeMailHref}>{contributeEmailAddress}</a> or{" "}
-        <a href="https://github.com/mmulet/code-relay/issues">
+        <a href="https://github.com/AverseABFun-windows/code-relay/issues">
           open an issue code-relay repo
         </a>
         <br />
