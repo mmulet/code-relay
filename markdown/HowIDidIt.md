@@ -799,3 +799,5 @@ For things that I couldn't (or didn't want to) do in blender, I made some static
 
 I wrote a full tutorial on how to use the game engine to make your own font games, so I hope you try it out!
 (The font game engine is soon to be open source. I just have to clean it up a bit)
+
+## Thanks for reading! [Sponsor me on GitHub to support awesome projects like this!](https://github.com/sponsors/mmulet)
