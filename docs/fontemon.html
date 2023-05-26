@@ -1,397 +1,761 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <!-- To the attention of Contributors: 
 This file is generated. Do not modify by hand. Modify ./scripts/src/fileGenerators/Fontemon.tsx instead -->
 <html>
-
-<head>
-<link rel="icon" type="image/png" href="/favicon.png?">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <head>
+    <link rel="icon" type="image/png" href="/favicon.png?" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>code relay - Fontemon</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-  <style>
-  
-body {
-    background-color: #263238;
-    color: #eceff1;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-a:link {
-    color: #90CAF9;
-}
+    <style>
+      body {
+        background-color: #263238;
+        color: #eceff1;
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
 
-a:visited {
-    color: #E1BEE7;
-}
+      a:link {
+        color: #90caf9;
+      }
 
-.fit {
-    width: -moz-fit-content;
-    width: fit-content;
-}
+      a:visited {
+        color: #e1bee7;
+      }
 
-.added {
-  background-color: green;
-}
+      .fit {
+        width: -moz-fit-content;
+        width: fit-content;
+      }
 
-.removed {
-  background-color: red;
-}
+      .added {
+        background-color: green;
+      }
 
+      .removed {
+        background-color: red;
+      }
 
+      .hamburger-button {
+      }
 
+      .nav-button {
+        border: none;
+        background: none;
+        padding: 0px;
+        color: #90caf9;
+        font-size: 24px;
+        margin: 0px;
+      }
 
-  .hamburger-button {
+      .wide-nav {
+        display: none;
+      }
 
-  }
+      .splash-code {
+        position: absolute;
+      }
+      .center-title {
+      }
+      .wide-title {
+        display: none;
+      }
+      .center-title {
+      }
 
-  .nav-button{
-    border: none;
-    background: none;
-    padding: 0px;
-    color: #90CAF9;
-    font-size: 24px;
-    margin: 0px;
-  }
+      .code-box {
+        margin-top: 0;
+        margin-bottom: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
 
-  .wide-nav {
-    display: none;
-  }
+      @media (min-width: 300px) {
+        .padded {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
 
-  .splash-code {
-    position: absolute;
-  }
-  .center-title {
+        .code-box {
+          border-radius: 10px;
+          box-shadow: 4px 6px 5px 0px #000000;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
 
-  }
-  .wide-title{
-    display: none;
-  }
-  .center-title {
+      @media (min-width: 350px) {
+        .code-box {
+          border-radius: 10px;
 
-  }
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+      }
 
-  .code-box{
-    margin-top:0;
-    margin-bottom:25px;
-    padding-top:15px;
-    padding-bottom:15px;
-  }
+      @media (min-width: 700px) {
+        .splash-code {
+          position: relative;
+          min-width: unset;
+        }
+        .dance {
+          height: 600px;
+        }
 
-  @media (min-width: 300px){
-    .padded {
-      padding-left: 15px;
-      padding-right: 15px;
-    }
+        .wide-nav {
+          display: flex;
+        }
+        .wide-title {
+          display: unset;
+        }
+        .center-title {
+          display: none;
+        }
 
-    .code-box{
-      border-radius:10px;
-      box-shadow:4px 6px 5px 0px #000000;
-      padding-left:5px;
-      padding-right:5px;
-    }
-  }
+        .hamburger-button {
+          display: none;
+        }
 
-  @media (min-width: 350px) {
-    .code-box{
-      border-radius:10px;
-     
-      padding-left:30px;
-      padding-right:30px;
-     
-      
-    }
-  }
+        .padded {
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+      }
+      #snow-header-button {
+        transition: all 0.3s linear;
+      }
 
- 
-  
-  @media (min-width: 700px) {
-    .splash-code {
-      position: relative;
-      min-width: unset;
-    }
-    .dance {
-      height: 600px;
-    }
-
-    .wide-nav {
-      display: flex;
-    }
-    .wide-title {
-      display: unset;
-    }
-    .center-title {
-      display: none;
-    }
-
-    .hamburger-button {
-      display: none;
-    }
-
-    .padded {
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-  }
-  #snow-header-button{
-    transition: all 0.3s linear;
-  }
-
-
-  /* PrismJS 1.22.0
+      /* PrismJS 1.22.0
   https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+clike+javascript+jsx */
-  /**
+      /**
    * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
    * Based on https://github.com/chriskempson/tomorrow-theme
    * @author Rose Pritchard
    */
-  
-  code[class*="language-"],
-  pre[class*="language-"] {
-    color: #ccc;
-    background: none;
-    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-    font-size: 1em;
-    text-align: left;
-    white-space: pre;
-    word-spacing: normal;
-    word-break: normal;
-    word-wrap: normal;
-    line-height: 1.5;
-  
-    -moz-tab-size: 4;
-    -o-tab-size: 4;
-    tab-size: 4;
-  
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    hyphens: none;
-  }
-  
-  /* Code blocks */
-  pre[class*="language-"] {
-    padding: 1em;
-    margin: 0.5em 0;
-    overflow: auto;
-  }
-  
-  :not(pre) > code[class*="language-"],
-  pre[class*="language-"] {
-    background: #2d2d2d;
-  }
-  
-  /* Inline code */
-  :not(pre) > code[class*="language-"] {
-    padding: 0.1em;
-    border-radius: 0.3em;
-    white-space: normal;
-  }
-  
-  .token.comment,
-  .token.block-comment,
-  .token.prolog,
-  .token.doctype,
-  .token.cdata {
-    color: #b2b2b2;
-  }
-  
-  .token.punctuation {
-    color: #88c6be;
-  }
-  
-  .token.tag,
-  .token.attr-name,
-  .token.namespace,
-  .token.deleted {
-    color: #fc929e;
-  }
-  
-  .token.function-name {
-    color: #6196cc;
-  }
-  
-  .token.boolean,
-  .token.number {
-    color: #ff8b50;
-  }
-  
-  .token.function {
-    color: #79b6f2;
-  }
-  
-  .token.property,
-  .token.class-name,
-  .token.constant,
-  .token.symbol {
-    color: #fac863;
-  }
-  
-  .token.selector,
-  .token.important,
-  .token.atrule,
-  .token.keyword,
-  .token.builtin {
-    color: #c5a5c5;
-  }
-  
-  .token.string,
-  .token.char,
-  .token.attr-value,
-  .token.regex {
-    color: #8dc891;
-  }
-  
-  .token.variable {
-    color: #d7deea;
-  }
-  
-  .token.operator,
-  .token.entity,
-  .token.url {
-    color: #fc929e;
-  }
-  
-  .token.important,
-  .token.bold {
-    font-weight: bold;
-  }
-  .token.italic {
-    font-style: italic;
-  }
-  
-  .token.entity {
-    cursor: help;
-  }
-  
-  .token.inserted {
-    color: green;
-  }
-  .token.melon {
-    color: #34FF79;
-  }
-  .token.cheese {
-    color: #4F7EFF;
-  }
-  .token.lemon {
-    color: #3CE8FF;
-  }
-  
-  .token.property,
-  .token.number,
-  .token.function-name,
-  .token.constant,
-  .token.symbol,
-  .token.deleted {
-    color: #5a9bcf;
-  }
-  
 
+      code[class*="language-"],
+      pre[class*="language-"] {
+        color: #ccc;
+        background: none;
+        font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+        font-size: 1em;
+        text-align: left;
+        white-space: pre;
+        word-spacing: normal;
+        word-break: normal;
+        word-wrap: normal;
+        line-height: 1.5;
 
-   @font-face {
-    font-family: "fontemon";
+        -moz-tab-size: 4;
+        -o-tab-size: 4;
+        tab-size: 4;
+
+        -webkit-hyphens: none;
+        -moz-hyphens: none;
+        -ms-hyphens: none;
+        hyphens: none;
+      }
+
+      /* Code blocks */
+      pre[class*="language-"] {
+        padding: 1em;
+        margin: 0.5em 0;
+        overflow: auto;
+      }
+
+      :not(pre) > code[class*="language-"],
+      pre[class*="language-"] {
+        background: #2d2d2d;
+      }
+
+      /* Inline code */
+      :not(pre) > code[class*="language-"] {
+        padding: 0.1em;
+        border-radius: 0.3em;
+        white-space: normal;
+      }
+
+      .token.comment,
+      .token.block-comment,
+      .token.prolog,
+      .token.doctype,
+      .token.cdata {
+        color: #b2b2b2;
+      }
+
+      .token.punctuation {
+        color: #88c6be;
+      }
+
+      .token.tag,
+      .token.attr-name,
+      .token.namespace,
+      .token.deleted {
+        color: #fc929e;
+      }
+
+      .token.function-name {
+        color: #6196cc;
+      }
+
+      .token.boolean,
+      .token.number {
+        color: #ff8b50;
+      }
+
+      .token.function {
+        color: #79b6f2;
+      }
+
+      .token.property,
+      .token.class-name,
+      .token.constant,
+      .token.symbol {
+        color: #fac863;
+      }
+
+      .token.selector,
+      .token.important,
+      .token.atrule,
+      .token.keyword,
+      .token.builtin {
+        color: #c5a5c5;
+      }
+
+      .token.string,
+      .token.char,
+      .token.attr-value,
+      .token.regex {
+        color: #8dc891;
+      }
+
+      .token.variable {
+        color: #d7deea;
+      }
+
+      .token.operator,
+      .token.entity,
+      .token.url {
+        color: #fc929e;
+      }
+
+      .token.important,
+      .token.bold {
+        font-weight: bold;
+      }
+      .token.italic {
+        font-style: italic;
+      }
+
+      .token.entity {
+        cursor: help;
+      }
+
+      .token.inserted {
+        color: green;
+      }
+      .token.melon {
+        color: #34ff79;
+      }
+      .token.cheese {
+        color: #4f7eff;
+      }
+      .token.lemon {
+        color: #3ce8ff;
+      }
+
+      .token.property,
+      .token.number,
+      .token.function-name,
+      .token.constant,
+      .token.symbol,
+      .token.deleted {
+        color: #5a9bcf;
+      }
+
+      @font-face {
+        font-family: "fontemon";
         src: url("/assets/fontemon.otf");
-  }
- 
-  
-  
-  .pixel-scale {
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
-  }
-  </style>
-  <script>
-  /**
-   * Hello! Here is the code un-minified so,
-   * you can play around with it. 
-   * If you actually want to contribute,
-   * the Typescript source code with comments
-   * is available here:
-   * https://github.com/mmulet/code-relay
-   */ 
-  "use strict";
-class GameSync {
-    constructor() {
-        this.customBackgroundColor = "#FFFFFF";
-        this.customTextColor = "#000000";
-        this.addMouseAndEventListeners = () => {
+      }
+
+      .pixel-scale {
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+      }
+    </style>
+    <script>
+      /**
+       * Hello! Here is the code un-minified so,
+       * you can play around with it.
+       * If you actually want to contribute,
+       * the Typescript source code with comments
+       * is available here:
+       * https://github.com/mmulet/code-relay
+       */
+      "use strict";
+      class GameSync {
+        constructor() {
+          this.customBackgroundColor = "#FFFFFF";
+          this.customTextColor = "#000000";
+          this.addMouseAndEventListeners = () => {
             this.area.addEventListener("input", () => {
-                const text = this.area.value;
-                this.playerDiv.innerText = text.replace(/\s/g, "_");
+              const text = this.area.value;
+              this.playerDiv.innerText = text.replace(/\s/g, "_");
             });
             this.playerDiv.addEventListener("input", () => {
-                this.area.value = this.playerDiv.innerText;
+              this.area.value = this.playerDiv.innerText;
             });
             this.colorPreset.addEventListener("change", () => {
-                const colors = this.presetToColors();
-                if (!colors) {
-                    return;
-                }
-                const { background, text } = colors;
-                this.playerDiv.style.backgroundColor = background;
-                this.backgroundColorPicker.value = background;
-                this.playerDiv.style.color = text;
-                this.textColorPicker.value = text;
+              const colors = this.presetToColors();
+              if (!colors) {
+                return;
+              }
+              const { background, text } = colors;
+              this.playerDiv.style.backgroundColor = background;
+              this.backgroundColorPicker.value = background;
+              this.playerDiv.style.color = text;
+              this.textColorPicker.value = text;
             });
             this.backgroundColorPicker.addEventListener("change", () => {
-                this.playerDiv.style.backgroundColor = this.backgroundColorPicker.value;
-                this.setCustomColors();
+              this.playerDiv.style.backgroundColor =
+                this.backgroundColorPicker.value;
+              this.setCustomColors();
             });
             this.textColorPicker.addEventListener("change", () => {
-                this.playerDiv.style.color = this.textColorPicker.value;
-                this.customTextColor = this.textColorPicker.value;
-                this.setCustomColors();
+              this.playerDiv.style.color = this.textColorPicker.value;
+              this.customTextColor = this.textColorPicker.value;
+              this.setCustomColors();
             });
-        };
-        this.presetToColors = () => {
+          };
+          this.presetToColors = () => {
             switch (this.colorPreset.value) {
-                case "Classic":
-                    return { background: "#9bbc0f", text: "#0f380f" };
-                case "Black and White":
-                    return { background: "#FFFFFF", text: "#000000" };
-                case "Inverted":
-                    return { background: "#000000", text: "#FFFFFF" };
-                case "Custom":
-                    return {
-                        background: this.customBackgroundColor,
-                        text: this.customTextColor,
-                    };
-                default:
-                    return null;
+              case "Classic":
+                return { background: "#9bbc0f", text: "#0f380f" };
+              case "Black and White":
+                return { background: "#FFFFFF", text: "#000000" };
+              case "Inverted":
+                return { background: "#000000", text: "#FFFFFF" };
+              case "Custom":
+                return {
+                  background: this.customBackgroundColor,
+                  text: this.customTextColor,
+                };
+              default:
+                return null;
             }
-        };
-        this.setCustomColors = () => {
+          };
+          this.setCustomColors = () => {
             if (this.customOption.parentElement == null) {
-                this.colorPreset.appendChild(this.customOption);
+              this.colorPreset.appendChild(this.customOption);
             }
             this.customBackgroundColor = this.backgroundColorPicker.value;
             this.customTextColor = this.textColorPicker.value;
             this.colorPreset.value = "Custom";
-        };
-        this.area = document.getElementById("area");
-        this.playerDiv = document.getElementById("player");
-        this.colorPreset = document.getElementById("game-style");
-        this.backgroundColorPicker = document.getElementById("background-color");
-        this.textColorPicker = document.getElementById("text-color");
-        this.customOption = document.createElement("option");
-        this.customOption.value = "Custom";
-        this.customOption.innerText = "Custom";
-        this.addMouseAndEventListeners();
-    }
-}
-let gameSync = null;
-window.onload = () => {
-    gameSync = new GameSync();
-};
-</script>
-  
-</head>
-<body>
-    <header style="position:fixed;top:0;left:0;z-index:1000;background-color:rgb(40, 44, 52);box-shadow:0px 6px 5px 0px #000000;min-width:100%"><div style="padding:5px;display:flex;flex-flow:row;align-items:center"><a class="wide-title" href="/"><img height="40" width="96" src="assets/webTitle0001.png" alt="code relay"/></a><div class="hamburger-button"><a class="nav-button" href="navigation.html" style="text-decoration:none">☰</a></div><div class="wide-nav"><div class="fit code-box" style="background-color:rgb(40, 44, 52);margin-top:0;margin-bottom:0;padding:5px;margin-right:5px;box-shadow:2px 2px 5px 0px #000000;text-align:center"><a href="/#WhatIsIt" style="margin-right:5px;text-decoration:none">What is it?</a></div><div class="fit code-box" style="background-color:rgb(40, 44, 52);margin-top:0;margin-bottom:0;padding:5px;margin-right:5px;box-shadow:2px 2px 5px 0px #000000;text-align:center"><a href="/#Why" style="margin-right:5px;text-decoration:none">Why?</a></div><div class="fit code-box" style="background-color:rgb(40, 44, 52);margin-top:0;margin-bottom:0;padding:5px;margin-right:5px;box-shadow:2px 2px 5px 0px #000000;text-align:center"><a href="/#faq" style="margin-right:5px;text-decoration:none">FAQ</a></div><div class="fit code-box" style="background-color:rgb(40, 44, 52);margin-top:0;margin-bottom:0;padding:5px;margin-right:5px;box-shadow:2px 2px 5px 0px #000000;text-align:center"><a href="examples.html" style="text-decoration:none">Examples</a></div><div class="fit code-box" style="background-color:rgb(40, 44, 52);margin-top:0;margin-bottom:0;padding:5px;margin-right:5px;box-shadow:2px 2px 5px 0px #000000;text-align:center"><a href="maintainer.html" style="text-decoration:none">Are you a maintainer?</a></div><div class="fit code-box" style="background-color:rgb(40, 44, 52);margin-top:0;margin-bottom:0;padding:5px;margin-right:5px;box-shadow:2px 2px 5px 0px #000000;text-align:center"><a href="https://github.com/mmulet/code-relay" style="text-decoration:none">GitHub</a></div></div><div style="color:#FFFD42;flex:1;justify-content:center;display:flex;flex-flow:row"><a class="center-title" href="/"><img height="40" width="96" src="assets/webTitle0001.png" alt="code relay"/></a></div><a href="gettingStarted.html" style="padding-right:5px;text-decoration:none">Start Now!</a></div></header><div style="display:flex;flex-flow:column;align-items:center"><div class="padded" style="max-width:600px;margin-top:40px"><div style="margin-top:100px;display:flex;flex-flow:column;align-items:center"><div><img class="pixel-scale" width="264" height="128" src="/assets/fontemonLogo.png"/> <!-- -->TM</div><h2>World&#x27;s first video game in a font!</h2><div class="fit code-box snow-box" style="background-color:rgb(40, 44, 52)"><img style="max-width:100%" src="/assets/snip.png"/></div><div class="fit code-box snow-box" style="background-color:rgb(40, 44, 52)"><h2>Just want to play? </h2> <a href="#player">Jump to the Web Font player!</a></div><p>You read that right! It&#x27;s a video game in a font! A font as in &quot;Time New Roman&quot;. The entire game is enclosed in fontemon.otf, no javascript, no html, all font.</p><h2>You can play it anywhere!</h2><div class="fit code-box snow-box" style="background-color:rgb(40, 44, 52)"><h3>Your word processor!</h3><img style="max-width:100%" src="/assets/snip.png"/></div><div class="fit code-box snow-box" style="background-color:rgb(40, 44, 52)"><h3>Your image editor!</h3><img style="max-width:100%" src="/assets/image_editor.png"/></div><div class="fit code-box snow-box" style="background-color:rgb(40, 44, 52)"><h3>Your code editor!</h3><img style="max-width:100%" src="/assets/codeEditor.png"/><h3>Even works with syntax highlighting</h3></div><h2>All the places you should never play games, but now you can because no one will stop you!</h2><div class="fit code-box snow-box" style="background-color:rgb(40, 44, 52)"><h2>Things to do:</h2><ul><li><a href="#player">Play on your web browser</a></li><li><a href="https://github.com/mmulet/font-game-engine/releases/download/1.0/fontemon_small.otf">Download the font</a> <!-- -->play anywhere!<div>Checkout the<!-- --> <a href="https://github.com/mmulet/font-game-engine/releases/">releases</a> <!-- -->page for the latest version.</div></li><li><a href="https://github.com/mmulet/code-relay/tree/main/markdown/HowIDidIt.md">Read the technical blog post. Find out how it works!</a></li><li><a href="https://github.com/mmulet/code-relay/tree/main/markdown/Tutorial.md">Make Your Own Font Game!</a> <!-- -->No programming knowledge necessary! Anyone can do it!</li></ul></div><div style="display:flex;flex-flow:column;align-items:center;position:relative;margin-top:100px;z-index:0;max-width:252px;min-width:252px;min-height:700px"><div id="player" contenteditable="true" style="font-family:fontemon;min-width:250px;min-height:250px;font-size:100px;padding-left:2px;font-variant-ligatures:discretionary-ligatures;background-color:white;color:black;outline:0px solid transparent"></div><div style="position:absolute;top:-54px;left:-81px;z-index:1;pointer-events:none"><img width="410" height="670" src="/assets/fontkid0001.png"/></div><div style="position:absolute;top:400px;z-index:1;background-color:white;box-shadow:0px 0px 17px -1px #928AD8;border-radius:5px;color:black;padding:10px"><div style="max-width:400px"><div>Type and keep typing. It&#x27;s a font, but the font replaces what you type with the game! You can type here or you type directly in the game above! If you lose, just press backspace to delete what you typed! There&#x27;s always a way to win!</div></div><textarea style="box-sizing:border-box" id="area"></textarea><div id="game-options" style="display:grid;grid-template-columns:1fr 1fr"><label for="game-style"> Presets: </label><select id="game-style"><option value="Black and White">Black and White</option><option value="Classic">Classic</option><option value="Inverted">Inverted</option></select><label for="background-color">Background:</label><input type="color" id="background-color" value="#FFFFFF"/><label for="text-color">&quot;Text&quot;:</label><input type="color" id="text-color" value="#000000"/></div></div></div><div><h2>Hints and Tips:</h2><ol><li>How to beat the game.</li><li>How to get the true ending</li><li>All the secrets revealed:<!-- --> <a href="https://github.com/mmulet/code-relay/tree/main/markdown/Secrets.md">here</a>.<div>Beware of spoilers!</div></li></ol></div><div>Checkout the image credits<!-- --> <a href="https://github.com/mmulet/code-relay/tree/main/markdown/fontemon_credits">here</a></div></div></div><footer style="margin-bottom:25px"><div style="min-width:100%;border-bottom:1px solid black;margin-bottom:5px;margin-top:5px"></div><div>© <!-- -->2021<!-- --> Late for Dinner Studios, LLC</div><div><a href="terms.html">Terms</a> <a href="privacy.html">Privacy</a></div></footer></div>
-    
-</body>
+          };
+          this.area = document.getElementById("area");
+          this.playerDiv = document.getElementById("player");
+          this.colorPreset = document.getElementById("game-style");
+          this.backgroundColorPicker =
+            document.getElementById("background-color");
+          this.textColorPicker = document.getElementById("text-color");
+          this.customOption = document.createElement("option");
+          this.customOption.value = "Custom";
+          this.customOption.innerText = "Custom";
+          this.addMouseAndEventListeners();
+        }
+      }
+      let gameSync = null;
+      window.onload = () => {
+        gameSync = new GameSync();
+      };
+    </script>
+  </head>
+  <body>
+    <header
+      style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        background-color: rgb(40, 44, 52);
+        box-shadow: 0px 6px 5px 0px #000000;
+        min-width: 100%;
+      "
+    >
+      <div
+        style="padding: 5px; display: flex; flex-flow: row; align-items: center"
+      >
+        <a class="wide-title" href="/"
+          ><img
+            height="40"
+            width="96"
+            src="assets/webTitle0001.png"
+            alt="code relay"
+        /></a>
+        <div class="hamburger-button">
+          <a
+            class="nav-button"
+            href="navigation.html"
+            style="text-decoration: none"
+            >☰</a
+          >
+        </div>
+        <div class="wide-nav">
+          <div
+            class="fit code-box"
+            style="
+              background-color: rgb(40, 44, 52);
+              margin-top: 0;
+              margin-bottom: 0;
+              padding: 5px;
+              margin-right: 5px;
+              box-shadow: 2px 2px 5px 0px #000000;
+              text-align: center;
+            "
+          >
+            <a
+              href="/#WhatIsIt"
+              style="margin-right: 5px; text-decoration: none"
+              >What is it?</a
+            >
+          </div>
+          <div
+            class="fit code-box"
+            style="
+              background-color: rgb(40, 44, 52);
+              margin-top: 0;
+              margin-bottom: 0;
+              padding: 5px;
+              margin-right: 5px;
+              box-shadow: 2px 2px 5px 0px #000000;
+              text-align: center;
+            "
+          >
+            <a href="/#Why" style="margin-right: 5px; text-decoration: none"
+              >Why?</a
+            >
+          </div>
+          <div
+            class="fit code-box"
+            style="
+              background-color: rgb(40, 44, 52);
+              margin-top: 0;
+              margin-bottom: 0;
+              padding: 5px;
+              margin-right: 5px;
+              box-shadow: 2px 2px 5px 0px #000000;
+              text-align: center;
+            "
+          >
+            <a href="/#faq" style="margin-right: 5px; text-decoration: none"
+              >FAQ</a
+            >
+          </div>
+          <div
+            class="fit code-box"
+            style="
+              background-color: rgb(40, 44, 52);
+              margin-top: 0;
+              margin-bottom: 0;
+              padding: 5px;
+              margin-right: 5px;
+              box-shadow: 2px 2px 5px 0px #000000;
+              text-align: center;
+            "
+          >
+            <a href="examples.html" style="text-decoration: none">Examples</a>
+          </div>
+          <div
+            class="fit code-box"
+            style="
+              background-color: rgb(40, 44, 52);
+              margin-top: 0;
+              margin-bottom: 0;
+              padding: 5px;
+              margin-right: 5px;
+              box-shadow: 2px 2px 5px 0px #000000;
+              text-align: center;
+            "
+          >
+            <a href="maintainer.html" style="text-decoration: none"
+              >Are you a maintainer?</a
+            >
+          </div>
+          <div
+            class="fit code-box"
+            style="
+              background-color: rgb(40, 44, 52);
+              margin-top: 0;
+              margin-bottom: 0;
+              padding: 5px;
+              margin-right: 5px;
+              box-shadow: 2px 2px 5px 0px #000000;
+              text-align: center;
+            "
+          >
+            <a
+              href="https://github.com/mmulet/code-relay"
+              style="text-decoration: none"
+              >GitHub</a
+            >
+          </div>
+        </div>
+        <div
+          style="
+            color: #fffd42;
+            flex: 1;
+            justify-content: center;
+            display: flex;
+            flex-flow: row;
+          "
+        >
+          <a class="center-title" href="/"
+            ><img
+              height="40"
+              width="96"
+              src="assets/webTitle0001.png"
+              alt="code relay"
+          /></a>
+        </div>
+        <a
+          href="gettingStarted.html"
+          style="padding-right: 5px; text-decoration: none"
+          >Start Now!</a
+        >
+      </div>
+    </header>
+    <div style="display: flex; flex-flow: column; align-items: center">
+      <div class="padded" style="max-width: 600px; margin-top: 40px">
+        <div
+          style="
+            margin-top: 100px;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+          "
+        >
+          <div>
+            <img
+              class="pixel-scale"
+              width="264"
+              height="128"
+              src="/assets/fontemonLogo.png"
+            />
+            <!-- -->TM
+          </div>
+          <h2>World&#x27;s first video game in a font!</h2>
+          <div
+            class="fit code-box snow-box"
+            style="background-color: rgb(40, 44, 52)"
+          >
+            <img style="max-width: 100%" src="/assets/snip.png" />
+          </div>
+          <div
+            class="fit code-box snow-box"
+            style="background-color: rgb(40, 44, 52)"
+          >
+            <h2>Just want to play?</h2>
+            <a href="#player">Jump to the Web Font player!</a>
+          </div>
+          <div
+          class="fit code-box snow-box"
+          style="background-color: rgb(40, 44, 52)"
+        >
+          <h2>Sponsor me on GitHub and checkout my other projects</h2>
+          <a href="https://github.com/sponsors/mmulet">Sponsor me on GitHub</a>
+        </div>
+          <p>
+            You read that right! It&#x27;s a video game in a font! A font as in
+            &quot;Time New Roman&quot;. The entire game is enclosed in
+            fontemon.otf, no javascript, no html, all font.
+          </p>
+          <h2>You can play it anywhere!</h2>
+          <div
+            class="fit code-box snow-box"
+            style="background-color: rgb(40, 44, 52)"
+          >
+            <h3>Your word processor!</h3>
+            <img style="max-width: 100%" src="/assets/snip.png" />
+          </div>
+          <div
+            class="fit code-box snow-box"
+            style="background-color: rgb(40, 44, 52)"
+          >
+            <h3>Your image editor!</h3>
+            <img style="max-width: 100%" src="/assets/image_editor.png" />
+          </div>
+          <div
+            class="fit code-box snow-box"
+            style="background-color: rgb(40, 44, 52)"
+          >
+            <h3>Your code editor!</h3>
+            <img style="max-width: 100%" src="/assets/codeEditor.png" />
+            <h3>Even works with syntax highlighting</h3>
+          </div>
+          <h2>
+            All the places you should never play games, but now you can because
+            no one will stop you!
+          </h2>
+          <div
+            class="fit code-box snow-box"
+            style="background-color: rgb(40, 44, 52)"
+          >
+            <h2>Things to do:</h2>
+            <ul>
+              <li><a href="#player">Play on your web browser</a></li>
+              <li>
+                <a
+                  href="https://github.com/mmulet/font-game-engine/releases/download/1.0/fontemon_small.otf"
+                  >Download the font</a
+                >
+                <!-- -->play anywhere!
+                <div>
+                  Checkout the<!-- -->
+                  <a href="https://github.com/mmulet/font-game-engine/releases/"
+                    >releases</a
+                  >
+                  <!-- -->page for the latest version.
+                </div>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mmulet/code-relay/tree/main/markdown/HowIDidIt.md"
+                  >Read the technical blog post. Find out how it works!</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/mmulet/code-relay/tree/main/markdown/Tutorial.md"
+                  >Make Your Own Font Game!</a
+                >
+                <!-- -->No programming knowledge necessary! Anyone can do it!
+              </li>
+            </ul>
+          </div>
+          <div
+            style="
+              display: flex;
+              flex-flow: column;
+              align-items: center;
+              position: relative;
+              margin-top: 100px;
+              z-index: 0;
+              max-width: 252px;
+              min-width: 252px;
+              min-height: 700px;
+            "
+          >
+            <div
+              id="player"
+              contenteditable="true"
+              style="
+                font-family: fontemon;
+                min-width: 250px;
+                min-height: 250px;
+                font-size: 100px;
+                padding-left: 2px;
+                font-variant-ligatures: discretionary-ligatures;
+                background-color: white;
+                color: black;
+                outline: 0px solid transparent;
+              "
+            ></div>
+            <div
+              style="
+                position: absolute;
+                top: -54px;
+                left: -81px;
+                z-index: 1;
+                pointer-events: none;
+              "
+            >
+              <img width="410" height="670" src="/assets/fontkid0001.png" />
+            </div>
+            <div
+              style="
+                position: absolute;
+                top: 400px;
+                z-index: 1;
+                background-color: white;
+                box-shadow: 0px 0px 17px -1px #928ad8;
+                border-radius: 5px;
+                color: black;
+                padding: 10px;
+              "
+            >
+              <div style="max-width: 400px">
+                <div>
+                  Type and keep typing. It&#x27;s a font, but the font replaces
+                  what you type with the game! You can type here or you type
+                  directly in the game above! If you lose, just press backspace
+                  to delete what you typed! There&#x27;s always a way to win!
+                </div>
+              </div>
+              <textarea style="box-sizing: border-box" id="area"></textarea>
+              <div
+                id="game-options"
+                style="display: grid; grid-template-columns: 1fr 1fr"
+              >
+                <label for="game-style"> Presets: </label
+                ><select id="game-style">
+                  <option value="Black and White">Black and White</option>
+                  <option value="Classic">Classic</option>
+                  <option value="Inverted">Inverted</option></select
+                ><label for="background-color">Background:</label
+                ><input
+                  type="color"
+                  id="background-color"
+                  value="#FFFFFF"
+                /><label for="text-color">&quot;Text&quot;:</label
+                ><input type="color" id="text-color" value="#000000" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2>Hints and Tips:</h2>
+            <ol>
+              <li>How to beat the game.</li>
+              <li>How to get the true ending</li>
+              <li>
+                All the secrets revealed:<!-- -->
+                <a
+                  href="https://github.com/mmulet/code-relay/tree/main/markdown/Secrets.md"
+                  >here</a
+                >.
+                <div>Beware of spoilers!</div>
+              </li>
+            </ol>
+          </div>
+          <div>
+            Checkout the image credits<!-- -->
+            <a
+              href="https://github.com/mmulet/code-relay/tree/main/markdown/fontemon_credits"
+              >here</a
+            >
+          </div>
+        </div>
+      </div>
+      <footer style="margin-bottom: 25px">
+        <div
+          style="
+            min-width: 100%;
+            border-bottom: 1px solid black;
+            margin-bottom: 5px;
+            margin-top: 5px;
+          "
+        ></div>
+        <div>
+          ©
+          <!-- -->2021<!-- -->
+          Late for Dinner Studios, LLC
+        </div>
+        <div>
+          <a href="terms.html">Terms</a> <a href="privacy.html">Privacy</a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
