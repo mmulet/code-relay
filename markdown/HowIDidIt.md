@@ -1,5 +1,7 @@
 # How I did it
 
+## Side note: [Sponsor me on GitHub to support awesome projects like this!](https://github.com/sponsors/mmulet)
+
 So, how did I make a video game from a font? To understand the answer, you must first understand fonts.
 
 I imagine the average english speaker thinks a font is something like this:
