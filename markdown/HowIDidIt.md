@@ -142,7 +142,7 @@ Example:
   <CharString name="example_sprite">
     -107 callsubr
     20 hmoveto
-    -016 callsbur
+    -106 callsbur
     return
   </CharString>
 
